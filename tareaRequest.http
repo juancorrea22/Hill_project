@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/v1/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "beber agua",
+    "completed": false,
+    "type": "hidratacion",
+    "description": "beber 2 litros de agua diarios"
+}

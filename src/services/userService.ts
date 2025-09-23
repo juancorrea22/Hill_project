@@ -19,10 +19,10 @@ export class UserService implements IUserService {
     }
 
     async updateUser(id: string, user: Partial<User>): Promise<User | null> {
-        return this.updateUser(id, user)
+        return this.userRepository.update(id, user);
     }
 
     async deleteUser(id: string): Promise<boolean> {
-        return this.deleteUser(id)
+        return this.userRepository.delete(id);
     }
 }

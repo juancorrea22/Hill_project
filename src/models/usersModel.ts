@@ -2,7 +2,6 @@ import mongoose, { Schema } from "mongoose";
 import { User } from "types/UsersTypes";
 
 const userSchema: Schema = new Schema<User>({
-    id: {type: String, required: true},
     name: {type: String, required: true},
     password: {type: String, required: true},
     edad: {type: Number, required: true},
@@ -36,7 +35,7 @@ const userSchema: Schema = new Schema<User>({
             peso: {type: Number, required: true}
         }
     ],
-    altura: {type: String, required: false},
+    altura: {type: Number, required: false},
 },{ timestamps: true });
 
 export const UserModel = mongoose.model<User>("users", userSchema)

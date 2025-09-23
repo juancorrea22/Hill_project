@@ -27,7 +27,6 @@ interface WeightsRegister {
 }
 
 export interface User {
-    id: string;
     name: string;
     password: string;
     edad: number;
