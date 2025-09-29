@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { createUser, deleteUser, findUsers, findUsersById, updateUser } from "@controllers/userContollers";
 import { createTarea, deleteTarea, findTareaById, findTareas, updateTarea } from "@controllers/tareaController";
+import { registerUser } from "@controllers/auth/authControllers";
 
 const router = Router()
 
@@ -8,6 +9,9 @@ export default () => {
     router.get("/", (req, res) => {
         res.send("API IS FOCKING PUTA MIERDA!!!")
     });
+
+    // auth Routes
+    router.post("/auth/register/", registerUser);
 
     // GET
     router.get("/users", findUsers);

@@ -1,3 +1,4 @@
+import { Query } from "mongoose";
 import { IUserRepository, IUserService, User } from "types/UsersTypes";
 
 export class UserService implements IUserService {
@@ -8,6 +9,10 @@ export class UserService implements IUserService {
 
     async createUser(user: User): Promise<User> {
         return this.userRepository.create(user);
+    }
+
+    async findUserByGmail(email: string): Promise<User | null> {
+        return this.userRepository.findOne({email});
     }
 
     async findUsers(): Promise<User[]> {

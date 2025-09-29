@@ -2,11 +2,11 @@ import mongoose, { Schema } from "mongoose";
 import { User } from "types/UsersTypes";
 
 const userSchema: Schema = new Schema<User>({
-    name: {type: String, required: true},
-    password: {type: String, required: true},
+    name: {type: String, required: true, unique: true},
+    password: {type: String, required: true, trim: true},
     edad: {type: Number, required: true},
     sexo: {type: String, enum: ["masculino", "femenino", "otro"], required: true},
-    email: {type: String, required: false},
+    email: {type: String, required: false, unique: true},
     userImage: {type: String, required: false},
     logros: [
         {

@@ -1,4 +1,5 @@
 import { UserModel } from "@models/usersModel";
+import { Query } from "types/RepositoryTypes";
 import { IUserRepository, User } from "types/UsersTypes";
 
 export class UserRepository implements IUserRepository{
@@ -11,6 +12,10 @@ export class UserRepository implements IUserRepository{
 
     async find(): Promise<User[]> {
         return await UserModel.find().exec(); // se usa el '.exec()' para que nos retorne solamente la data y no todo el doc de mongoose
+    }
+
+    async findOne(query: Query): Promise<User | null> {
+        return await UserModel.findOne(query);
     }
 
     async findById(id: string): Promise<User | null> {

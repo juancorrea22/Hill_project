@@ -1,3 +1,4 @@
+import { Query } from "./RepositoryTypes";
 import { Repositorio } from "./RepositoryTypes";
 
 interface Logro {
@@ -40,11 +41,14 @@ export interface User {
     initDate: string;
 }
 
-export interface IUserRepository extends Repositorio<User>{}
+export interface IUserRepository extends Repositorio<User>{
+    findOne(query: Query): Promise <User | null>; // esto es para poder buscar un usuario por cualquier atributo
+}
 
 export interface IUserService {
     createUser(user: User): Promise<User>;
     findUsers(): Promise<User[]>;
+    findUserByGmail(email: string): Promise<User | null>;
     findUsersById(id: string): Promise<User | null>;
     updateUser(id: string, user: Partial<User>): Promise<User | null>;
     deleteUser(id: string): Promise<boolean>;

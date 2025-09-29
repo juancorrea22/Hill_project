@@ -1,3 +1,5 @@
+export type Query = Record<string, unknown>;
+
 export interface Repositorio<T = unknown> { // se usa unkown si no se especifica un tipo
     create(data: T): Promise<T>;
     find(): Promise<T[]>;

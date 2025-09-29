@@ -2,7 +2,7 @@ import mongoose, { Schema } from "mongoose";
 import { Tarea } from "types/TareasTypes";
 
 const tareaSchema: Schema = new Schema<Tarea> ({
-    name: {type: String, required: true},
+    name: {type: String, required: true, unique: true},
     completed: {type: Boolean, required: true},
     type: {type: String, enum: ["hidratacion", "ejercicio", "sueño", "alimentacion", "otro"], required: true},
     description: {type: String, required: true},
