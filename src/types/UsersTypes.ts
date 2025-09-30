@@ -1,4 +1,5 @@
 import { Query, Repositorio  } from "./RepositoryTypes";
+import { ObjectId } from "mongoose";
 
 interface Logro {
     name: string;
@@ -27,6 +28,7 @@ interface WeightsRegister {
 }
 
 export interface User {
+    _id?: ObjectId;
     name: string;
     password: string;
     edad: number;
@@ -44,6 +46,8 @@ export interface IUserRepository extends Repositorio<User>{
     findOne(query: Query): Promise <User | null>; // esto es para poder buscar un usuario por cualquier atributo
 }
 
+
+
 export interface IUserService {
     createUser(user: User): Promise<User>;
     findUsers(): Promise<User[]>;
@@ -51,4 +55,5 @@ export interface IUserService {
     findUsersById(id: string): Promise<User | null>;
     updateUser(id: string, user: Partial<User>): Promise<User | null>;
     deleteUser(id: string): Promise<boolean>;
+    userLogin(email: string, password: string): Promise<{ user: User; token: string } | null>;
 }

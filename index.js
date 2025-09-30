@@ -25,6 +25,12 @@ app.get('/api/students/:id', (req, res) => {
     else res.send(student);
 })
 
+app.get('/api/students/notifications', (req, res) => {
+    
+    res.json({ message: "Aquí están las notificaciones de los estudiantes" });
+});
+
+
 
 app.post('/api/students', (req,res) => {
     const student = {

@@ -3,6 +3,7 @@ import { UserService } from "@services/userService";
 import { IUserRepository, IUserService, User } from "types/UsersTypes";
 import { Request, Response } from "express";
 
+
 const userRepository:IUserRepository = new UserRepository();
 const userService: IUserService = new UserService(userRepository);
 
@@ -78,6 +79,32 @@ export const deleteUser = async (req: Request, res: Response) => {
 
     } catch (error) {
         console.log(`ereror: >> ${error}`);
+        res.status(500).json(error);
+    }
+}
+
+export const userLogin = async (req: Request, res: Response) => {
+    try {
+        const { name, password } = req.body;
+
+        if (!name || !password) {
+            return res.status(400).json({ message: "Name and password are required" });
+        }
+
+        const result = await userService.userLogin(name, password);
+
+        if (!result) {
+            return res.status(401).json({ message: "Invalid credentials" });
+        }
+
+        // Devuelve usuario y token
+        res.json({
+            user: result.user,
+            token: result.token,
+        });
+
+    } catch (error) {
+        console.log(`error: >> ${error}`);
         res.status(500).json(error);
     }
 }
