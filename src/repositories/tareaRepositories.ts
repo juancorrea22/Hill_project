@@ -2,7 +2,6 @@ import { TareaModel } from "@models/tareaModel";
 import { ITareaRepository, Tarea } from "types/TareasTypes";
 
 export class TareaRepository implements ITareaRepository{
-    private tareas: Tarea[] = []
 
     async create(data: Tarea): Promise<Tarea> {
         const newTarea = new TareaModel(data);

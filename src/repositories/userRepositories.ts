@@ -3,7 +3,6 @@ import { Query } from "types/RepositoryTypes";
 import { IUserRepository, User } from "types/UsersTypes";
 
 export class UserRepository implements IUserRepository{
-    private users: User[] = []
 
     async create(data: User): Promise<User> {
         const newUser = new UserModel(data);

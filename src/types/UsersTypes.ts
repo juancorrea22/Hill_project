@@ -1,5 +1,4 @@
-import { Query } from "./RepositoryTypes";
-import { Repositorio } from "./RepositoryTypes";
+import { Query, Repositorio  } from "./RepositoryTypes";
 
 interface Logro {
     name: string;

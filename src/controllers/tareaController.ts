@@ -6,7 +6,6 @@ import { Request, Response } from "express";
 const tareaRepository:ITareaRepository = new TareaRepository();
 const tareaService: ITareaService = new TareaService(tareaRepository);
 
-//corregir todo esto
 export const findTareas = async (req: Request, res: Response) => {
     try {
 
@@ -15,7 +14,7 @@ export const findTareas = async (req: Request, res: Response) => {
             return res.status(404).json({message: "no tareas Found."});
         }
         res.json(tareas);
-
+        
     } catch (error) {
         console.log(`ereror: >> ${error}`);
         res.status(500).json(error);
