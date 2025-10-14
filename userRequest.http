@@ -2,12 +2,42 @@ POST http://localhost:3000/api/v1/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "GOKU",
-    "password": "Las7Esferas",
-    "edad": 43,
-    "sexo": "masculino",
-    "email": "ssjDiosUltraInstinto@example.com"
+  "name": "Gintoki Sakata",
+  "password": "yorozuya123",
+  "edad": 27,
+  "sexo": "masculino",
+  "email": "gintoki@example.com",
+  "userImage": "https://example.com/gintoki.jpg",
+  "logros": [
+    {
+      "logro": {
+        "name": "Primer trabajo de Yorozuya",
+        "rango": "bronce",
+        "description": "Completó su primer encargo como freelancer"
+      },
+      "fecha": "2025-10-14"
+    }
+  ],
+  "tareas": [
+    {
+      "name": "Beber leche de fresa",
+      "completed": false,
+      "type": "alimentacion",
+      "description": "Beber su leche de fresa diaria",
+      "timeLimit": 24,
+      "initDate": "2025-10-14",
+      "frequency": "diario"
+    }
+  ],
+  "registroPeso": [
+    {
+      "fecha": "2025-10-14",
+      "peso": 72.3
+    }
+  ],
+  "altura": 1.77
 }
+
 
 ###
 GET http://localhost:3000/api/v1/users HTTP/1.1
@@ -19,3 +49,6 @@ Content-Type: application/json
 {
     "email" : "SonGoku@example.com"
 }
+
+###
+GET http://localhost:3000/api/v1/users/68d1fab849b946680d3cc0bb HTTP/1.1

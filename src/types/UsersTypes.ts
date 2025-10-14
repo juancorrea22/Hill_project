@@ -1,5 +1,5 @@
 import { Query, Repositorio  } from "./RepositoryTypes";
-import { ObjectId } from "mongoose";
+import { ObjectId, Document } from "mongoose";
 
 interface Logro {
     name: string;
@@ -55,5 +55,7 @@ export interface IUserService {
     findUsersById(id: string): Promise<User | null>;
     updateUser(id: string, user: Partial<User>): Promise<User | null>;
     deleteUser(id: string): Promise<boolean>;
-    userLogin(email: string, password: string): Promise<{ user: User; token: string } | null>;
+    userLogin(name: string, password: string): Promise<{ user: User; token: string } | null>;
 }
+
+export type UserDocument = User & Document;

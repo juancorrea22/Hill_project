@@ -1,8 +1,8 @@
 import mongoose, { Schema } from "mongoose";
+import bcrypt from "bcrypt";
 import { User } from "types/UsersTypes";
 
 const userSchema: Schema = new Schema<User>({
-    _id: { type: Schema.Types.ObjectId }, // no hace falta unique porque mongo siempre te coloca un id unico :)
     name: { type: String, required: true, unique: true },
     password: { type: String, required: true, trim: true },
     edad: { type: Number, required: true },
@@ -38,5 +38,19 @@ const userSchema: Schema = new Schema<User>({
     ],
     altura: { type: Number, required: false },
 }, { timestamps: true });
+
+// encriptar la contraseña antes de guardar
+userSchema.pre("save", async function (next) {
+    const user = this as any;
+    if (!user.isModified("password")) return next();
+
+    try {
+        const salt = await bcrypt.genSalt(10);
+        user.password = await bcrypt.hash(user.password, salt);
+        next();
+    } catch (error) {
+        next(error as any);
+    }
+});
 
 export const UserModel = mongoose.model<User>("users", userSchema);

@@ -32,7 +32,7 @@ export class UserRepository implements IUserRepository{
         return deleted != null;
     }
 
-    async logIn(name: string, password: string): Promise<{ user: User; token: string } | null> {
+    async userLogin(name: string, password: string): Promise<{ user: User; token: string } | null> {
         // verificar si el username existe en el mongo
         const user = await UserModel.findOne({ name }).exec();
         if (!user) return null;
