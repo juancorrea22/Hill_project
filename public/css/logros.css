@@ -1,0 +1,87 @@
+body {
+  background-color: #a7d49b;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2.5em;
+  color: #1b3b1a;
+  margin: 20px 0;
+}
+
+.logros-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.logros-columna {
+  background: #f5f5f0;
+  border-radius: 15px;
+  width: 45%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.logros-columna h2 {
+  color: #1b3b1a;
+  text-align: center;
+}
+
+.logros-lista {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.logro-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.logro-item:hover {
+  background: #eef7ec;
+}
+
+.logro-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logro-info img {
+  width: 40px;
+  height: 40px;
+}
+
+.logro-texto {
+  color: #2d5016;
+}
+
+.logro-texto span {
+  display: block;
+  font-weight: bold;
+}
+
+.logro-icono {
+  color: #2d5016;
+  font-size: 1.2em;
+}

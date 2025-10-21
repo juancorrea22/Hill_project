@@ -4,85 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Logros</title>
-  <!-- Estilos -->
-  <link rel="stylesheet" href="../css/variables.css">
-  <link rel="stylesheet" href="../css/layout.css">
-  <link rel="stylesheet" href="../css/components.css">
-  <link rel="stylesheet" href="../css/pages.css">
-
-  <!-- Iconos (FontAwesome) -->
-  <script src="https://kit.fontawesome.com/1c5f5e6c5f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/globalApp.css">
+  <link rel="stylesheet" href="../css/logros.css">
 </head>
 <body>
-  <div class="hill-app-layout">
-    
-    <!-- Sidebar -->
-    <aside class="hill-sidebar">
-      <div class="hill-flex hill-flex--column hill-flex--align-center">
-        <img src="../img/Hill_imagen_logo.jpg" alt="Logo" class="hill-logo mb-4">
-        <nav class="hill-flex hill-flex--column hill-flex--gap-base">
-          <a href="#" class="hill-btn hill-btn--ghost">Inicio</a>
-          <a href="#" class="hill-btn hill-btn--ghost">Perfil</a>
-          <a href="#" class="hill-btn hill-btn--primary">Logros</a>
-          <a href="#" class="hill-btn hill-btn--ghost">Configuración</a>
-        </nav>
-      </div>
-    </aside>
+  <div class="app-container">
+    <!-- Barra de navegación -->
+    <div class="navigation">
+      <a href="notificaciones.html" class="nav-button">
+          <div class="nav-icon">
+              <img src="../img/Icono_campana_hill.png" alt="Campana">
+          </div>
+          <span class="nav-label">Campana</span>
+      </a>
 
-    <!-- Contenido principal -->
-    <main class="hill-main-content">
-      <header class="hill-header">
-        <h1 class="text-2xl">Mis Logros</h1>
-      </header>
+      <a href="progreso.html" class="nav-button">
+          <div class="nav-icon">
+              <img src="../img/icono_progreso.png" alt="Progreso">
+          </div>
+          <span class="nav-label">Progreso</span>
+      </a>
 
-      <!-- Barra de progreso -->
-      <section class="hill-container mt-4">
-        <h2 class="text-lg mb-2">Progreso General</h2>
-        <div class="hill-progress mb-3">
-          <div id="progress-bar" class="hill-progress__bar" style="width: 0%;"></div>
+      <a href="home.html" class="nav-button">
+          <div class="nav-icon">
+              <img src="../img/Hill_imagen_logo.jpg" alt="Hill">
+          </div>
+          <span class="nav-label">Hill</span>
+      </a>
+
+      <a href="logros.html" class="nav-button">
+          <div class="nav-icon">
+              <img src="../img/Icono_logro.png" alt="Logros">
+          </div>
+          <span class="nav-label">Logros</span>
+      </a>
+
+      <a href="opciones.html" class="nav-button">
+          <div class="nav-icon">
+              <img src="../img/icono_opciones.png" alt="Opciones">
+          </div>
+          <span class="nav-label">Opciones</span>
+      </a>
+    </div>
+
+    <h1 class="titulo">Logros</h1>
+
+    <div class="logros-container">
+      <div class="logros-columna">
+        <h2>Logros Obtenidos</h2>
+        <div class="logros-lista" id="logros-obtenidos">
+          <!-- Se insertan dinámicamente desde JS -->
         </div>
-        <p id="progress-text" class="text-sm text-muted">0 de 0 logros completados</p>
-      </section>
-
-      <!-- Filtros -->
-      <section class="hill-container mt-4">
-        <h2 class="text-lg mb-2">Filtros</h2>
-        <div class="hill-flex hill-flex--gap-base mb-3">
-          <button class="hill-btn hill-btn--ghost" onclick="setFilter('all')">Todos</button>
-          <button class="hill-btn hill-btn--success" onclick="setFilter('success')">Completados</button>
-          <button class="hill-btn hill-btn--secondary" onclick="setFilter('accent')">En progreso</button>
-          <button class="hill-btn hill-btn--danger" onclick="setFilter('warning')">Pendientes</button>
-        </div>
-      </section>
-
-      <!-- Sección de logros -->
-      <section class="hill-container mt-4">
-        <h2 class="text-lg mb-3">Listado de Logros</h2>
-        <div class="hill-grid" id="logros-container">
-          <!-- Los logros se generan dinámicamente con JS -->
-        </div>
-      </section>
-    </main>
-  </div>
-
-  <!-- Modal de logro -->
-  <div class="hill-modal" id="logro-modal" style="display:none;">
-    <div class="hill-modal__content">
-      <div class="hill-modal__header">
-        <h2 class="hill-modal__title" id="modal-title"></h2>
-        <button class="hill-modal__close" onclick="closeModal()">&times;</button>
       </div>
-      <div class="hill-modal__body">
-        <p id="modal-description"></p>
-        <span id="modal-badge" class="hill-badge mt-2"></span>
-      </div>
-      <div class="hill-modal__footer">
-        <button class="hill-btn hill-btn--secondary" onclick="closeModal()">Cerrar</button>
+
+      <div class="logros-columna">
+        <h2>Todos los logros</h2>
+        <div class="logros-lista" id="todos-los-logros">
+          <!-- Se insertan dinámicamente desde JS -->
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Script -->
   <script src="../js/logros.js"></script>
 </body>
 </html>
