@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progreso - Hill</title>
+  <link rel="stylesheet" href="/public/css/globalApp.css">
+  <link rel="stylesheet" href="/public/css/progreso.css">
+  <!--libreria de Chart.js  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="page-container">
+    <!-- Barra de navegación -->
+    <div class="navigation">
+      <a href="/notificaciones.html" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/Icono_campana_hill.png" alt="Campana">
+        </div>
+        <span class="nav-label">Campana</span>
+      </a>
+
+      <a href="/progreso.html" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/icono_progreso.png" alt="Progreso">
+        </div>
+        <span class="nav-label">Progreso</span>
+      </a>
+
+      <a href="/home.html" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/Hill_imagen_logo.jpg" alt="Hill">
+        </div>
+        <span class="nav-label">Hill</span>
+      </a>
+
+      <a href="#" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/Icono_logro.png" alt="Logros">
+        </div>
+        <span class="nav-label">Logros</span>
+      </a>
+
+      <a href="#" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/icono_opciones.png" alt="Opciones">
+        </div>
+        <span class="nav-label">Opciones</span>
+      </a>
+    </div>
+
+    <!-- Título principal -->
+    <div class="title-container">
+      <h1>Progreso</h1>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content">
+      <!-- Columna izquierda: Peso -->
+      <div class="left-column">
+        <!-- Peso Kg -->
+        <div class="peso-card">
+          <h2>Peso Kg</h2>
+        </div>
+
+        <!-- Ingresar nuevo peso -->
+        <div class="input-card">
+          <label>Ingresar Nuevo peso:</label>
+          <div class="input-group">
+            <input type="number" id="nuevoPeso" placeholder="Ej: 85" min="0" step="0.1">
+            <button onclick="agregarPeso()">Agregar</button>
+          </div>
+        </div>
+
+        <!-- Último peso registrado -->
+        <div class="info-card">
+          <p>Ultimo Peso registrado:</p>
+          <p class="peso-valor" id="ultimoPeso">85 Kg</p>
+        </div>
+      </div>
+
+      <!-- Columna central: Gráfica -->
+      <div class="center-column">
+        <div class="grafica-card">
+          <h2>Progreso del Peso</h2>
+          <canvas id="pesoChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Columna derecha: Estadísticas -->
+      <div class="right-column">
+        <div class="estadisticas-card">
+          <h2>Estadisticas</h2>
+        </div>
+
+        <div class="stat-card">
+          <p>Tiempo desde creación: <span id="diasCreacion">90</span> días</p>
+        </div>
+
+        <div class="stat-card">
+          <p>Cantidad de misiones completadas: <span id="misionesCompletadas">57</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/public/js/progreso.js"></script>
+</body>
+</html>

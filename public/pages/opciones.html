@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opciones - Hill</title>
+    <link rel="stylesheet" href="/public/css/globalApp.css">
+    <link rel="stylesheet" href="/public/css/opciones.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Barra de navegación -->
+        <div class="navigation">
+            <a href="/notificaciones.html" class="nav-button">
+                <div class="nav-icon">
+                    <img src="/public/img/Icono_campana_hill.png" alt="Campana">
+                </div>
+                <span class="nav-label">Campana</span>
+            </a>
+
+            <a href="/progreso.html" class="nav-button">
+                <div class="nav-icon">
+                    <img src="/public/img/icono_progreso.png" alt="Progreso">
+                </div>
+                <span class="nav-label">Progreso</span>
+            </a>
+
+            <a href="/home.html" class="nav-button">
+                <div class="nav-icon">
+                    <img src="/public/img/Hill_imagen_logo.jpg" alt="Hill">
+                </div>
+                <span class="nav-label">Hill</span>
+            </a>
+
+            <a href="#" class="nav-button">
+                <div class="nav-icon">
+                    <img src="/public/img/Icono_logro.png" alt="Logros">
+                </div>
+                <span class="nav-label">Logros</span>
+            </a>
+
+            <a href="/opciones.html" class="nav-button">
+                <div class="nav-icon">
+                    <img src="/public/img/icono_opciones.png" alt="Opciones">
+                </div>
+                <span class="nav-label">Opciones</span>
+            </a>
+        </div>
+
+        <!-- Título principal -->
+        <div class="title-container">
+            <h1>Opciones</h1>
+        </div>
+
+        <!-- Layout principal -->
+        <div class="main-layout">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="sidebar-item active" onclick="showSection('perfil')">
+                    <div class="sidebar-content">
+                        <img src="/public/img/Icono_usuario.png" alt="Usuario" class="sidebar-icon">
+                        <span>Ajustes de usuario</span>
+                    </div>
+                </div>
+                <div class="sidebar-item" onclick="showSection('seguridad')">
+                    <div class="sidebar-content">
+                        <span class="sidebar-text-icon">Políticas de seguridad</span>
+                    </div>
+                </div>
+                <div class="sidebar-item" onclick="showSection('soporte')">
+                    <div class="sidebar-content">
+                        <span class="sidebar-text-icon">Soporte Técnico</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Área de contenido -->
+            <div class="content-area">
+                <!-- Sección de Perfil -->
+                <div id="perfil-section" class="section">
+                    <h2 class="section-title">Editar Perfil</h2>
+                    
+                    <!-- Tarjeta de usuario -->
+                    <div class="user-card">
+                        <div class="user-info">
+                            <div class="user-avatar">
+                                <img src="/public/img/avatar_default.png" alt="Avatar" id="avatar-img">
+                            </div>
+                            <div class="user-name" id="display-username">User_Name1</div>
+                        </div>
+                        <button class="change-photo-btn" onclick="changePhoto()">
+                            Cambiar Foto<br>de usuario
+                        </button>
+                    </div>
+
+                    <!-- Botones de acción -->
+                    <button class="action-button" onclick="openModal('username')">
+                        Editar Nombre de Usuario
+                    </button>
+                    <button class="action-button" onclick="openModal('password')">
+                        Cambiar Contraseña
+                    </button>
+                </div>
+
+                <!-- Sección de Seguridad -->
+                <div id="seguridad-section" class="section" style="display: none;">
+                    <h2 class="section-title">Políticas de Seguridad</h2>
+                    <div class="info-box">
+                        <h3>Configuración de Seguridad</h3>
+                        <p>Aquí puedes configurar las políticas de seguridad de tu cuenta, incluyendo:</p>
+                        <ul>
+                            <li>Autenticación de dos factores</li>
+                            <li>Dispositivos autorizados</li>
+                            <li>Configuración de privacidad</li>
+                            <li>Historial de actividad</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Sección de Soporte -->
+                <div id="soporte-section" class="section" style="display: none;">
+                    <h2 class="section-title">Soporte Técnico</h2>
+                    <div class="info-box">
+                        <h3>¿Necesitas ayuda?</h3>
+                        <p>Contacta con nuestro equipo de soporte técnico o consulta nuestras preguntas frecuentes.</p>
+                        <div class="soporte-options">
+                            <div class="soporte-card">
+                                <h4>Email</h4>
+                                <p>soporte@hill.com</p>
+                            </div>
+                            <div class="soporte-card">
+                                <h4>FAQ</h4>
+                                <p>Preguntas frecuentes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para editar nombre de usuario -->
+    <div id="username-modal" class="modal">
+        <div class="modal-content">
+            <h3 class="modal-header">Editar Nombre de Usuario</h3>
+            <div class="form-group">
+                <label class="form-label">Nuevo nombre de usuario:</label>
+                <input type="text" id="new-username" class="form-input" placeholder="Ingresa tu nuevo nombre">
+            </div>
+            <div class="modal-buttons">
+                <button class="btn btn-secondary" onclick="closeModal('username')">Cancelar</button>
+                <button class="btn btn-primary" onclick="saveUsername()">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para cambiar contraseña -->
+    <div id="password-modal" class="modal">
+        <div class="modal-content">
+            <h3 class="modal-header">Cambiar Contraseña</h3>
+            <div class="form-group">
+                <label class="form-label">Contraseña actual:</label>
+                <input type="password" id="current-password" class="form-input" placeholder="Ingresa tu contraseña actual">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Nueva contraseña:</label>
+                <input type="password" id="new-password" class="form-input" placeholder="Ingresa tu nueva contraseña">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Confirmar contraseña:</label>
+                <input type="password" id="confirm-password" class="form-input" placeholder="Confirma tu nueva contraseña">
+            </div>
+            <div class="modal-buttons">
+                <button class="btn btn-secondary" onclick="closeModal('password')">Cancelar</button>
+                <button class="btn btn-primary" onclick="savePassword()">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/js/opciones.js"></script>
+</body>
+</html>
