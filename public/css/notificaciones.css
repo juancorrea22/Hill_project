@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 95%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.tareas {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tareas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tareas li {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.tareas img {
+    width: 20px;
+    height: 20px;
+}
+
+.notificacion {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f0f0f0;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.notificacion img {
+    width: 28px;
+    height: 28px;
+}
