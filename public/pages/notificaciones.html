@@ -2,46 +2,110 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Notificaciones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notificaciones - Hill</title>
+  <link rel="stylesheet" href="/public/css/globalApp.css">
   <link rel="stylesheet" href="/public/css/notificaciones.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Notificaciones</h2>
+  <div class="page-container">
+    <!-- Barra de navegación -->
+    <div class="navigation">
+      <a href="/notificaciones.html" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/Icono_campana_hill.png" alt="Campana">
+        </div>
+        <span class="nav-label">Campana</span>
+      </a>
+
+      <a href="#" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/icono_progreso.png" alt="Progreso">
+        </div>
+        <span class="nav-label">Progreso</span>
+      </a>
+
+      <a href="/home.html" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/Hill_imagen_logo.jpg" alt="Hill">
+        </div>
+        <span class="nav-label">Hill</span>
+      </a>
+
+      <a href="#" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/Icono_logro.png" alt="Logros">
+        </div>
+        <span class="nav-label">Logros</span>
+      </a>
+
+      <a href="#" class="nav-button">
+        <div class="nav-icon">
+          <img src="/public/img/icono_opciones.png" alt="Opciones">
+        </div>
+        <span class="nav-label">Opciones</span>
+      </a>
+    </div>
+
+    <!-- Título principal -->
+    <div class="title-container">
+      <h1>Notificaciones</h1>
+    </div>
+
+    <!-- Contenido de notificaciones -->
     <div class="content">
-      <!-- Tareas -->
-      <div class="tareas">
-        <p><b>Aún no has completado las siguientes tareas:</b></p>
-        <ul>
-          <li><img src="/public/img/icono_x_roja.png" alt="X"> Tarea 4: Descripción de la tarea</li>
-          <li><img src="/public/img/icono_x_roja.png" alt="X"> Tarea 5: Descripción de la tarea</li>
-          <li><img src="/public/img/icono_x_roja.png" alt="X"> Tarea 6: Descripción de la tarea</li>
-        </ul>
+      <!-- Mensajes de notificación (izquierda) -->
+      <div class="mensajes-section">
+        <h2>Mensajes de Notificación</h2>
+        <div class="notificacion">
+          <img src="/public/img/Icono_campana_hill.png" alt="Notificación">
+          <div class="notificacion-texto">
+            <p><b>Mensaje de notificación 1</b></p>
+          </div>
+          <div class="notificacion-fecha">
+            <small>6:55 a.m</small>
+            <small>05/08/2025</small>
+          </div>
+        </div>
+        <div class="notificacion">
+          <img src="/public/img/Icono_campana_hill.png" alt="Notificación">
+          <div class="notificacion-texto">
+            <p><b>Mensaje de notificación 1</b></p>
+          </div>
+          <div class="notificacion-fecha">
+            <small>7:04 p.m</small>
+            <small>04/08/2025</small>
+          </div>
+        </div>
+        <div class="notificacion">
+          <img src="/public/img/Icono_campana_hill.png" alt="Notificación">
+          <div class="notificacion-texto">
+            <p><b>Mensaje de notificación 1</b></p>
+          </div>
+          <div class="notificacion-fecha">
+            <small>8:30 a.m</small>
+            <small>04/08/2025</small>
+          </div>
+        </div>
       </div>
 
-      <!-- Notificaciones -->
-      <div>
-        <div class="notificacion">
-          <img src="/public/img/Icono_campana_hill.png" alt="Notificación">
-          <div>
-            <p><b>Mensaje de notificación 1</b></p>
-            <small>6:55 a.m 05/08/2025</small>
-          </div>
-        </div>
-        <div class="notificacion">
-          <img src="/public/img/Icono_campana_hill.png" alt="Notificación">
-          <div>
-            <p><b>Mensaje de notificación 2</b></p>
-            <small>7:04 p.m 04/08/2025</small>
-          </div>
-        </div>
-        <div class="notificacion">
-          <img src="/public/img/Icono_campana_hill.png" alt="Notificación">
-          <div>
-            <p><b>Mensaje de notificación 3</b></p>
-            <small>8:30 a.m 04/08/2025</small>
-          </div>
-        </div>
+      <!-- Tareas pendientes (derecha) -->
+      <div class="tareas">
+        <p class="tareas-titulo"><b>Aun no has completado las siguientes tareas:</b></p>
+        <ul>
+          <li>
+            <img src="/public/img/icono_x_roja.png" alt="X">
+            <span>Tarea 4: Descripcion de la tarea</span>
+          </li>
+          <li>
+            <img src="/public/img/icono_x_roja.png" alt="X">
+            <span>Tarea 5: Descripcion de la tarea</span>
+          </li>
+          <li>
+            <img src="/public/img/icono_x_roja.png" alt="X">
+            <span>Tarea 6: Descripcion de la tarea</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
