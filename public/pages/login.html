@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill - Iniciar Sesión</title>
+    <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="variables.css">
+</head>
+<body class="hill-login-page">
+    <main class="hill-login-container">
+        <div class="hill-login__image">
+            <!-- Imagen decorativa para login -->
+            <img src="login-image.jpg" alt="hábitos saludables" class="hill-image">
+        </div>
+        
+        <div class="hill-login__form-container">
+            <div class="hill-login__logo">
+                <!-- Logo de Hill -->
+                <img src="logo-hill.png" alt="logo hill" class="hill-logo">
+            </div>
+            
+            <div class="hill-login__form">
+                <h2 class="hill-login__title">Iniciar Sesión</h2>
+                
+                <!-- POST /auth/login -->
+                <form class="hill-form" action="#" method="post">
+                    <div class="hill-form-group">
+                        <label for="username" class="hill-form-label">Usuario o Email</label>
+                        <input type="text" id="username" name="username" class="hill-form-input" required>
+                    </div>
+                    
+                    <div class="hill-form-group">
+                        <label for="password" class="hill-form-label">Contraseña</label>
+                        <input type="password" id="password" name="password" class="hill-form-input" required>
+                    </div>
+                    
+                    <!-- Ejemplo estático de mensaje de error -->
+                    <div class="hill-form-error-message">
+                        Usuario o contraseña incorrectos
+                    </div>
+                    
+                    <button type="submit" class="hill-btn hill-btn--primary hill-btn--full-width">
+                        Iniciar Sesión
+                    </button>
+                </form>
+                
+                <div class="hill-login__links">
+                    <a href="#" class="hill-login__link">¿Olvidaste tu contraseña?</a>
+                    <a href="#" class="hill-login__link">Registrarse</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

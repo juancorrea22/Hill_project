@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill home menu</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- mkdas de los iconardos -->
+    <div class="container">
+        <div class="navigation">
+            <a href="#" class="nav-button">
+                <div class="nav-icon">
+                    <img src="imagenes_hill/Icono_campana_hill.png" alt="Campana">
+                </div>
+                <span class="nav-label">Campana</span>
+            </a>
+
+            <a href="#" class="nav-button">
+                <div class="nav-icon">
+                    <img src="imagenes_hill/icono_progreso.png" alt="Progreso">
+                </div>
+                <span class="nav-label">Progreso</span>
+            </a>
+
+            <a href="#" class="nav-button">
+                <div class="nav-icon">
+                    <img src="imagenes_hill/Hill_imagen_logo.jpg" alt="Hill">
+                </div>
+                <span class="nav-label">Hill</span>
+            </a>
+
+            <a href="#" class="nav-button">
+                <div class="nav-icon">
+                    <img src="imagenes_hill/Icono_logro.png" alt="Logros">
+                </div>
+                <span class="nav-label">Logros</span>
+            </a>
+
+            <a href="#" class="nav-button">
+                <div class="nav-icon">
+                    <img src="imagenes_hill/icono_opciones.png" alt="Opciones">
+                </div>
+                <span class="nav-label">Opciones</span>
+            </a>
+        </div>
+
+        <!-- Fecha y Hora -->
+        <div class="datetime" id="hora"></div>
+
+        <!-- Secciones de Tareas -->
+        <div class="tasks-container">
+            <!-- Tareas Restantes -->
+            <div class="task-section">
+                <h2>Tareas Restantes:</h2>
+                <div class="task-list">
+                    <div class="task-item">
+                        <div class="task-icon pending">✕</div>
+                        <div class="task-text">Tarea 4: Descripcion de la tarea</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-icon pending">✕</div>
+                        <div class="task-text">Tarea 5: Descripcion de la tarea</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-icon pending">✕</div>
+                        <div class="task-text">Tarea 6: Descripcion de la tarea</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tareas Completadas -->
+            <div class="task-section">
+                <h2>Tareas Completadas:</h2>
+                <div class="task-list">
+                    <div class="task-item">
+                        <div class="task-icon completed">✓</div>
+                        <div class="task-text">Tarea 1: Descripcion de la tarea</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-icon completed">✓</div>
+                        <div class="task-text">Tarea 2: Descripcion de la tarea</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-icon completed">✓</div>
+                        <div class="task-text">Tarea 3: Descripcion de la tarea</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="importTime.js"></script>
+
+</body>
+</html>
