@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hill home menu</title>
+    <title>Hill - Home</title>
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/globalApp.css">
 </head>
 <body>
-    <!-- mkdas de los iconardos -->
     <div class="container">
         <div class="navigation">
             <a href="notificaciones.html" class="nav-button">
@@ -47,51 +46,27 @@
             </a>
         </div>
 
-
         <div class="datetime" id="hora"></div>
 
-        <!-- SECCION DE TAREAS -->
+        <!-- TAREAS DEL USUARIO -->
         <div class="tasks-container">
-            <!-- LAS TAREAS QUE FALTAN POR COMPLETAR -->
+            <!-- TAREAS FALTAN POR COMPLETAR -->
             <div class="task-section">
                 <h2>Tareas Restantes:</h2>
                 <div class="task-list">
-                    <div class="task-item">
-                        <div class="task-icon pending">✕</div>
-                        <div class="task-text">Tarea 4: Descripcion de la tarea</div>
-                    </div>
-                    <div class="task-item">
-                        <div class="task-icon pending">✕</div>
-                        <div class="task-text">Tarea 5: Descripcion de la tarea</div>
-                    </div>
-                    <div class="task-item">
-                        <div class="task-icon pending">✕</div>
-                        <div class="task-text">Tarea 6: Descripcion de la tarea</div>
-                    </div>
                 </div>
             </div>
 
-            <!-- LAS TAREAS COMPLETADAS -->
+            <!-- TAREAS COMPLETADAS -->
             <div class="task-section">
                 <h2>Tareas Completadas:</h2>
                 <div class="task-list">
-                    <div class="task-item">
-                        <div class="task-icon completed">✓</div>
-                        <div class="task-text">Tarea 1: Descripcion de la tarea</div>
-                    </div>
-                    <div class="task-item">
-                        <div class="task-icon completed">✓</div>
-                        <div class="task-text">Tarea 2: Descripcion de la tarea</div>
-                    </div>
-                    <div class="task-item">
-                        <div class="task-icon completed">✓</div>
-                        <div class="task-text">Tarea 3: Descripcion de la tarea</div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
     <script src="../js/importTime.js"></script>
-
+    <script src="../js/home.js"></script>
 </body>
 </html>
