@@ -1,4 +1,3 @@
-// Datos iniciales del usuario (estos vendrían de tu base de datos)
 let datosUsuario = {
     pesos: [
         { fecha: '2024-07-15', peso: 96 },  // Primer registro - Día 0
@@ -14,7 +13,6 @@ let datosUsuario = {
 
 let chart;
 
-// Calcular días transcurridos desde el primer registro
 function calcularDiasDesdeInicio(fechaInicio, fechaActual) {
     const inicio = new Date(fechaInicio);
     const actual = new Date(fechaActual);
@@ -22,7 +20,6 @@ function calcularDiasDesdeInicio(fechaInicio, fechaActual) {
     return Math.floor(diferencia / (1000 * 60 * 60 * 24));
 }
 
-// Obtener la fecha actual en formato YYYY-MM-DD
 function obtenerFechaActual() {
     const hoy = new Date();
     return hoy.toISOString().split('T')[0];
@@ -140,7 +137,6 @@ function actualizarEstadisticas() {
     document.getElementById('misionesCompletadas').textContent = datosUsuario.misionesCompletadas;
 }
 
-// Agregar nuevo peso
 function agregarPeso() {
     const input = document.getElementById('nuevoPeso');
     const nuevoPeso = parseFloat(input.value);
@@ -150,10 +146,8 @@ function agregarPeso() {
         return;
     }
     
-    // Obtener la fecha actual
     const fechaActual = obtenerFechaActual();
     
-    // Verificar que no haya un registro con la misma fecha
     const yaExiste = datosUsuario.pesos.some(p => p.fecha === fechaActual);
     if (yaExiste) {
         alert('Ya existe un registro para el día de hoy');
@@ -188,5 +182,5 @@ function agregarPeso() {
     });
 }
 
-// Inicializar cuando se carga la página
+// INICIALIZAR
 window.addEventListener('load', inicializar);
