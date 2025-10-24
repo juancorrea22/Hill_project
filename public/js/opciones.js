@@ -1,30 +1,23 @@
-// Mostrar sección específica
 function showSection(sectionName) {
-    // Ocultar todas las secciones
     const sections = document.querySelectorAll('.section');
     sections.forEach(section => {
         section.style.display = 'none';
     });
     
-    // Mostrar la sección seleccionada
     const targetSection = document.getElementById(sectionName + '-section');
     if (targetSection) {
         targetSection.style.display = 'block';
     }
     
-    // Actualizar sidebar activo
     const sidebarItems = document.querySelectorAll('.sidebar-item');
     sidebarItems.forEach(item => {
         item.classList.remove('active');
     });
     
-    // Activar el item correspondiente
     event.currentTarget.classList.add('active');
 }
 
-// Cambiar foto de perfil
 function changePhoto() {
-    // Crear input file temporal
     const input = document.createElement('input');
     input.type = 'file';
     input.accept = 'image/*';
@@ -46,7 +39,6 @@ function changePhoto() {
     input.click();
 }
 
-// Abrir modal
 function openModal(modalType) {
     const modal = document.getElementById(modalType + '-modal');
     if (modal) {
@@ -54,7 +46,6 @@ function openModal(modalType) {
     }
 }
 
-// Cerrar modal
 function closeModal(modalType) {
     const modal = document.getElementById(modalType + '-modal');
     if (modal) {
@@ -62,7 +53,6 @@ function closeModal(modalType) {
     }
 }
 
-// Cerrar modal al hacer click fuera
 document.querySelectorAll('.modal').forEach(modal => {
     modal.addEventListener('click', function(e) {
         if (e.target === this) {
@@ -71,7 +61,6 @@ document.querySelectorAll('.modal').forEach(modal => {
     });
 });
 
-// Guardar nombre de usuario
 function saveUsername() {
     const newUsername = document.getElementById('new-username').value.trim();
     
@@ -85,27 +74,22 @@ function saveUsername() {
         return;
     }
     
-    // Actualizar el nombre mostrado
     document.getElementById('display-username').textContent = newUsername;
     
-    // Limpiar el input
     document.getElementById('new-username').value = '';
     
-    // Cerrar el modal
     closeModal('username');
     
-    // Aquí guardarías el cambio en tu base de datos
+    // FALTA FUARDAR LO CAMBIOS EN EL MONGODB
     console.log('Nuevo nombre de usuario:', newUsername);
     alert('Nombre de usuario actualizado correctamente');
 }
 
-// Guardar contraseña
 function savePassword() {
     const currentPassword = document.getElementById('current-password').value;
     const newPassword = document.getElementById('new-password').value;
     const confirmPassword = document.getElementById('confirm-password').value;
     
-    // Validaciones
     if (!currentPassword || !newPassword || !confirmPassword) {
         alert('Por favor completa todos los campos');
         return;
@@ -121,15 +105,13 @@ function savePassword() {
         return;
     }
     
-    // Limpiar los inputs
     document.getElementById('current-password').value = '';
     document.getElementById('new-password').value = '';
     document.getElementById('confirm-password').value = '';
     
-    // Cerrar el modal
     closeModal('password');
     
-    // Aquí validarías la contraseña actual y guardarías la nueva en tu base de datos
+    // FALTA GUARDAR LOS CAMBIOS EN EL MONGODB
     console.log('Contraseña actualizada');
     alert('Contraseña actualizada correctamente');
 }
