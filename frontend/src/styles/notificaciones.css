@@ -1,0 +1,136 @@
+.page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Título principal centrado */
+.title-container {
+    background: #f5f5f0;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title-container h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #2d5016;
+    font-weight: normal;
+}
+
+/* Contenedor principal */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+/* Sección de mensajes (izquierda) */
+.mensajes-section {
+    background: #f5f5f0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mensajes-section h2 {
+    margin: 0 0 20px 0;
+    color: #2d5016;
+    font-size: 24px;
+}
+
+.notificacion {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.notificacion img {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.notificacion-texto {
+    flex: 1;
+}
+
+.notificacion-texto p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.notificacion-fecha {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.notificacion-fecha small {
+    color: #666;
+    font-size: 12px;
+}
+
+/* Sección de tareas (derecha) */
+.tareas {
+    background: #f5f5f0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tareas-titulo {
+    margin: 0 0 20px 0;
+    color: #2d5016;
+    font-size: 18px;
+}
+
+.tareas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tareas li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.tareas li img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.tareas li span {
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-container h1 {
+        font-size: 36px;
+    }
+}

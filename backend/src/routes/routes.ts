@@ -2,7 +2,7 @@ import { Router } from "express";
 import { createUser, deleteUser, findUsers, findUsersById, updateUser, userLogin } from "@controllers/userContollers";
 import { createTarea, deleteTarea, findTareaById, findTareas, updateTarea } from "@controllers/tareaController";
 import { createNotification, deleteNotification, findNotification, findNotificationById, updateNotification } from "@controllers/notificationController";
-import { registerUser } from "@controllers/auth/authControllers";
+import { forgotPassword, registerUser } from "@controllers/auth/authControllers";
 
 const router = Router()
 
@@ -14,6 +14,7 @@ export default () => {
     // auth Routes
     router.post("/auth/register/", registerUser);
     router.post("/auth/login/", userLogin);
+    router.post("/auth/forgot-password", forgotPassword);
 
     // USERS
     router.get("/users", findUsers); // GET
