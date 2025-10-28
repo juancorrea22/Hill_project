@@ -1,0 +1,8 @@
+POST http://localhost:4000/api/logros HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Completar 300 tareas",
+    "rango": "oro",
+    "description": "Conseguir un total de 300 tareas completadas"
+}
