@@ -7,3 +7,183 @@ Content-Type: application/json
     "type": "hidratacion",
     "description": "beber 2 litros de agua diarios"
 }
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Entrenar",
+    "completed": false, 
+    "type": "Ejercicio",
+    "description": "Entrenar minimamente 1 hora a la semana"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Pausas activas cada 60 minutos",
+  "completed": false,
+  "type": "ejercicio",
+  "description": "Breves pausas de 3-5 minutos para caminar, estirar y relajar la postura durante jornadas largas.",
+  "timeLimit": 5,
+  "frequency": "diario"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Desayuno balanceado",
+  "completed": false,
+  "type": "alimentacion",
+  "description": "Consumir proteína, fruta y carbohidratos complejos en la mañana para mantener energía sostenida.",
+  "timeLimit": 20,
+  "frequency": "diario"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Meditación guiada 10 minutos",
+  "completed": false,
+  "type": "otro",
+  "description": "Práctica diaria de atención plena para reducir estrés y mejorar concentración.",
+  "timeLimit": 10,
+  "frequency": "diario"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Consumir 5 porciones de fruta y verdura",
+  "completed": false,
+  "type": "alimentacion",
+  "description": "Aumentar la variedad y cantidad de frutas y verduras a lo largo del día.",
+  "timeLimit": 0,
+  "frequency": "diario"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Dormir 7-8 horas",
+  "completed": false,
+  "type": "sueño",
+  "description": "Mantener un horario regular de sueño para mejorar recuperación y función cognitiva.",
+  "timeLimit": 480,
+  "frequency": "diario"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Planificar comidas semanalmente",
+  "completed": false,
+  "type": "alimentacion",
+  "description": "Elegir recetas, hacer lista de compras y preparar comidas para facilitar elecciones saludables.",
+  "timeLimit": 90,
+  "frequency": "semanal"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Clase de yoga mensual",
+  "completed": false,
+  "type": "ejercicio",
+  "description": "Asistir a una clase de yoga para trabajar movilidad, respiración y reducción de estrés.",
+  "timeLimit": 60,
+  "frequency": "mensual"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Revisión bimensual de hidratación",
+  "completed": false,
+  "type": "hidratacion",
+  "description": "Evaluar hábitos de consumo de agua y ajustar metas según actividad y clima.",
+  "timeLimit": 30,
+  "frequency": "bimensual"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Chequeo de postura en el trabajo",
+  "completed": false,
+  "type": "ejercicio",
+  "description": "Revisar y corregir la postura cada 2 horas; ajustar silla, pantalla y apoyar los pies.",
+  "timeLimit": 5,
+  "frequency": "diario"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Rutina de fuerza en casa",
+  "completed": false,
+  "type": "ejercicio",
+  "description": "Circuito de 3 ejercicios de fuerza con peso corporal, 3 series cada uno para mantener masa muscular.",
+  "timeLimit": 30,
+  "frequency": "semanal"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Té o infusión sin azúcar después de la cena",
+  "completed": false,
+  "type": "hidratacion",
+  "description": "Tomar una infusión relajante para mejorar digestión y favorecer el descanso nocturno.",
+  "timeLimit": 15,
+  "frequency": "diario"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Desconexión digital nocturna",
+  "completed": false,
+  "type": "otro",
+  "description": "Apagar notificaciones y dispositivos 60 minutos antes de dormir para mejorar la calidad del sueño.",
+  "timeLimit": 60,
+  "frequency": "diario"
+}
+
+### 
+POST http://localhost:4000/api/tareas HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Respiraciones profundas cada mañana",
+  "completed": false,
+  "type": "otro",
+  "description": "5 minutos de respiración diafragmática para reducir estrés y mejorar oxigenación.",
+  "timeLimit": 5,
+  "frequency": "diario"
+}

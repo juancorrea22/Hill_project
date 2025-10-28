@@ -3,39 +3,47 @@ import { createUser, deleteUser, findUsers, findUsersById, updateUser, userLogin
 import { createTarea, deleteTarea, findTareaById, findTareas, updateTarea } from "@controllers/tareaController";
 import { createNotification, deleteNotification, findNotification, findNotificationById, updateNotification } from "@controllers/notificationController";
 import { forgotPassword, registerUser } from "@controllers/auth/authControllers";
+import { createLogro, deleteLogro, findLogro, findLogroById, updateLogro } from "@controllers/logroController";
 
-const router = Router()
+const router = Router();
 
 export default () => {
     router.get("/", (req, res) => {
-        res.send("DE ALGUNA FORMA SE PODRIA DECIR QUE ESTA MONDA CORRE :)")
+        res.send("DE ALGUNA FORMA SE PODRIA DECIR QUE ESTA MONDA CORRE :)");
     });
 
-    // auth Routes
+    // AUTH
     router.post("/auth/register/", registerUser);
     router.post("/auth/login/", userLogin);
     router.post("/auth/forgot-password", forgotPassword);
 
     // USERS
-    router.get("/users", findUsers); // GET
-    router.get("/users/:id", findUsersById); // GET
-    router.post("/users", createUser); // POST
-    router.put("/users/:id", updateUser); // PUT
-    router.delete("/users/:id", deleteUser); // DELETE
+    router.get("/users", findUsers);
+    router.get("/users/:id", findUsersById);
+    router.post("/users", createUser);
+    router.put("/users/:id", updateUser);
+    router.delete("/users/:id", deleteUser);
     
     // TAREAS
-    router.get("/tareas", findTareas); // GET
-    router.get("/tareas/:id", findTareaById); // GET
-    router.post("/tareas", createTarea); // POST
-    router.put("/tareas/:id", updateTarea); // PUT
-    router.delete("/tareas/:id", deleteTarea); // DELETE
+    router.get("/tareas", findTareas);
+    router.get("/tareas/:id", findTareaById);
+    router.post("/tareas", createTarea);
+    router.put("/tareas/:id", updateTarea);
+    router.delete("/tareas/:id", deleteTarea);
 
     // NOTIFICACIONES
-    router.get("/notification", findNotification); // GET
-    router.get("/notification/:id", findNotificationById); // GET
-    router.post("/notification", createNotification); // POST
-    router.put("/notification/:id", updateNotification); // PUT
-    router.delete("/notification/:id", deleteNotification); // Delete
+    router.get("/notification", findNotification);
+    router.get("/notification/:id", findNotificationById);
+    router.post("/notification", createNotification);
+    router.put("/notification/:id", updateNotification);
+    router.delete("/notification/:id", deleteNotification);
+
+    // LOGROS
+    router.get("/logros", findLogro);
+    router.get("/logros/:id", findLogroById);
+    router.post("/logros", createLogro);
+    router.put("/logros/:id", updateLogro);
+    router.delete("/logros/:id", deleteLogro);
 
     return router;
-};
+}

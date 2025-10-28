@@ -2,7 +2,7 @@ import mongoose, { Schema } from "mongoose";
 import bcrypt from "bcrypt";
 import { User } from "types/UsersTypes";
 
-const userSchema: Schema = new Schema<User>({
+const userSchema: Schema = new Schema<User> ({
     name: { type: String, required: true, unique: true },
     password: { type: String, required: true, trim: true },
     edad: { type: Number, required: true },
