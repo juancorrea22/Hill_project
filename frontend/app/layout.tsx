@@ -1,7 +1,9 @@
-// app/layout.tsx
-import '../styles/globalApp.css';
-import '../styles/home.css';
 import React from 'react';
+
+import '../src/styles/pages.css';
+import '../src/styles/layout.css';
+import '../src/styles/components.css';
+import '../src/styles/variables.css';
 
 export const metadata = {
   title: 'Hill',

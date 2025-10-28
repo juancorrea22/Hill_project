@@ -65,16 +65,12 @@ export default function HomePage() {
       <div className="tasks-container">
         <div className="task-section">
           <h2>Tareas Restantes:</h2>
-          <div className="task-list" id="task-list-pending">
-            {/* El script home.js puede inyectar items aquí */}
-          </div>
+          <div className="task-list" id="task-list-pending"></div>
         </div>
 
         <div className="task-section">
           <h2>Tareas Completadas:</h2>
-          <div className="task-list" id="task-list-completed">
-            {/* El script home.js puede inyectar items aquí */}
-          </div>
+          <div className="task-list" id="task-list-completed"></div>
         </div>
       </div>
     </div>
