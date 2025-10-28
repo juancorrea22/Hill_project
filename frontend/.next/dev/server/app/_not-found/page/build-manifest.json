@@ -2,20 +2,20 @@
   "devFiles": [],
   "ampDevFiles": [],
   "polyfillFiles": [
-    "static/chunks/a753b_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/9e883_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_83066ba6._.js",
-    "static/chunks/a753b_next_dist_compiled_react-dom_c3563347._.js",
-    "static/chunks/a753b_next_dist_compiled_react-server-dom-turbopack_fd5070f8._.js",
-    "static/chunks/a753b_next_dist_compiled_next-devtools_index_d5c48112.js",
-    "static/chunks/a753b_next_dist_compiled_b2487629._.js",
-    "static/chunks/a753b_next_dist_client_283414af._.js",
-    "static/chunks/a753b_next_dist_66edd244._.js",
-    "static/chunks/a753b_@swc_helpers_cjs_2a85c3bd._.js",
-    "static/chunks/c5e6f_Cuarto semestre_Plataformas Computacionales_Hill_project_frontend_a0ff3932._.js",
-    "static/chunks/25a37_Cuarto semestre_Plataformas Computacionales_Hill_project_frontend_6b8784bd._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_44d1806c._.js",
+    "static/chunks/9e883_next_dist_compiled_react-dom_33d456f8._.js",
+    "static/chunks/9e883_next_dist_compiled_react-server-dom-turbopack_6723cebf._.js",
+    "static/chunks/9e883_next_dist_compiled_next-devtools_index_6915c2bc.js",
+    "static/chunks/9e883_next_dist_compiled_8f5ebc08._.js",
+    "static/chunks/9e883_next_dist_client_574b2bd8._.js",
+    "static/chunks/9e883_next_dist_a09712b1._.js",
+    "static/chunks/9e883_@swc_helpers_cjs_c26b7a0e._.js",
+    "static/chunks/frontend_a0ff3932._.js",
+    "static/chunks/turbopack-frontend_43b8ea1c._.js"
   ],
   "pages": {},
   "ampFirstPages": []
