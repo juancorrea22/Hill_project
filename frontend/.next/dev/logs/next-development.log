@@ -1,0 +1,7 @@
+[00:00:02.081] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 4.9.5
+[00:00:02.550] Server  LOG      ✓ Ready in 1663ms
+[00:00:25.987] Server  ERROR    ⨯ TurbopackInternalError: path length for file C:\Users\jfbor\OneDrive - PUJ Cali\Documentos\Ingeniería de Sistemas y Computación\Cuarto semestre\Plataformas Computacionales\Hill_project\frontend\.next\dev\static\chunks\4ffd6_Plataformas Computacionales_Hill_project_frontend_src_styles_pages_css_bad6b30c._.single.css exceeds max length of filesystem
+
+Caused by:
+- file is too long, and could not be normalized
+[00:00:28.994] Server  LOG      ○ Compiling /_error ...

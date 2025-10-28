@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jfbor/OneDrive%20-%20PUJ%20Cali/Documentos/Ingenier%C3%ADa%20de%20Sistemas%20y%20Computaci%C3%B3n/Cuarto%20semestre/Plataformas%20Computacionales/Hill_project/frontend/node_modules/next/app.js"],"sourcesContent":["module.exports = require('./dist/pages/_app')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}
