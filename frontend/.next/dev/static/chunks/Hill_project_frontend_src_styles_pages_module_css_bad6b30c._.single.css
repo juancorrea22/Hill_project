@@ -1,0 +1,168 @@
+/* [project]/Hill_project/frontend/src/styles/pages.module.css [app-client] (css) */
+.pages-module__C7w0fq__hill_login_page {
+  background-color: #adffb0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.pages-module__C7w0fq__hill_login_container {
+  background-color: var(--surface);
+  border-radius: var(--radius-lg);
+  width: 80%;
+  max-width: 1000px;
+  height: 80%;
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  overflow: hidden;
+}
+
+.pages-module__C7w0fq__hill_login__image {
+  background-color: var(--muted);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pages-module__C7w0fq__hill_login__form_container {
+  width: 50%;
+  padding: var(--space-2xl);
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.pages-module__C7w0fq__hill_login__logo {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.pages-module__C7w0fq__hill_login__title {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+  font-weight: 600;
+}
+
+.pages-module__C7w0fq__hill_form_error_message {
+  color: var(--danger);
+  padding: var(--space-sm);
+  border-radius: var(--radius);
+  margin-bottom: var(--space-base);
+  font-size: var(--font-size-sm);
+  background-color: #ffebee;
+  display: none;
+}
+
+.pages-module__C7w0fq__hill-login__links {
+  margin-top: var(--space-lg);
+  justify-content: space-between;
+  display: flex;
+}
+
+.pages-module__C7w0fq__hill_login__link {
+  font-size: var(--font-size-sm);
+}
+
+.pages-module__C7w0fq__hill_btn--full-width {
+  width: 100%;
+}
+
+.pages-module__C7w0fq__hill_image_placeholder, .pages-module__C7w0fq__hill_logo_placeholder {
+  background-color: var(--muted);
+  color: var(--text-light);
+  padding: var(--space-lg);
+  text-align: center;
+  border-radius: var(--radius);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .pages-module__C7w0fq__hill_login_container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .pages-module__C7w0fq__hill_login__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pages-module__C7w0fq__hill_login__form_container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .pages-module__C7w0fq__hill_login_container {
+    width: 100%;
+  }
+
+  .pages-module__C7w0fq__hill_login__form_container {
+    padding: var(--space-lg);
+  }
+
+  .pages-module__C7w0fq__hill_login__links {
+    gap: var(--space-sm);
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+.pages-module__C7w0fq__hill_image {
+  object-fit: cover;
+  width: 10%;
+  height: 10%;
+}
+
+.pages-module__C7w0fq__hill_image--contain {
+  object-fit: contain;
+}
+
+.pages-module__C7w0fq__hill_logo {
+  object-fit: contain;
+  border-radius: 15px;
+  width: auto;
+  height: 100px;
+}
+
+.pages-module__C7w0fq__hill_avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.pages-module__C7w0fq__hill_icon {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.pages-module__C7w0fq__hill_banner {
+  object-fit: cover;
+  border-radius: var(--radius);
+  width: 100%;
+  height: 200px;
+}
+
+.pages-module__C7w0fq__hill_chart {
+  object-fit: contain;
+  background-color: var(--muted);
+  border-radius: var(--radius);
+  width: 100%;
+  height: 300px;
+}
+
+.pages-module__C7w0fq__hill_image_placeholder, .pages-module__C7w0fq__hill_logo_placeholder {
+  display: none;
+}
+
+/*# sourceMappingURL=Hill_project_frontend_src_styles_pages_module_css_bad6b30c._.single.css.map*/

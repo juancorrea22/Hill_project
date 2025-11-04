@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from "next/image";
+import styles from "../../src/styles/pages.module.css";
 
 export default function LoginPage() {
   const [username, setUsername] = useState('');
@@ -13,7 +15,7 @@ export default function LoginPage() {
     e.preventDefault();
     setError(false);
 
-    const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:4000';
+    const API = process.env.NEXT_PUBLIC_API_BASE ?? 'http://localhost:4000';
     try {
       const response = await fetch(`${API}/api/auth/login/`, {
         method: 'POST',
@@ -36,21 +38,21 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="hill-login-container hill-login-page">
-      <div className="hill-login__image">
-        <img src="/img/login-image.jpg" alt="hábitos saludables" className="hill-image" />
+    <main className={`${styles.hill_login_container} ${styles.hill_login_page}`}>
+      <div className={styles.hill_login__image}>
+        <Image src="/login-image.jpg" alt="habitos saludables" width={626} height={626} className={styles.hill_image} />
       </div>
 
-      <div className="hill-login__form-container">
-        <div className="hill-login__logo">
-          <img src="/img/Hill_imagen_logo.jpg" alt="logo hill" className="hill-logo" />
+      <div className={styles.hill_login__form_container}>
+        <div className={styles.hill_login__logo}>
+          <img src="/Hill_imagen_logo.jpg" width={60} height={64} alt="logo hill" className="hill-logo" />
         </div>
 
-        <div className="hill-login__form">
-          <h2 className="hill-login__title">Iniciar Sesión</h2>
+        <div className={styles.hill_login__form}>
+          <h2 className={styles.hill_login__title}>Iniciar Sesión</h2>
 
-          <form className="hill-form" onSubmit={handleSubmit}>
-            <div className="hill-form-group">
+          <form className={styles.hill_form} onSubmit={handleSubmit}>
+            <div className={styles.hill_form_group}>
               <label htmlFor="username" className="hill-form-label">Nombre de usuario</label>
               <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} className="hill-form-input" required />
             </div>

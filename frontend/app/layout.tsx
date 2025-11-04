@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../src/styles/pages.css';
+import '../src/styles/pages.module.css';
 import '../src/styles/layout.css';
 import '../src/styles/components.css';
 import '../src/styles/variables.css';

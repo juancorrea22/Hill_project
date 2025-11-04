@@ -1,7 +1,1094 @@
-[00:00:02.081] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 4.9.5
-[00:00:02.550] Server  LOG      ✓ Ready in 1663ms
-[00:00:25.987] Server  ERROR    ⨯ TurbopackInternalError: path length for file C:\Users\jfbor\OneDrive - PUJ Cali\Documentos\Ingeniería de Sistemas y Computación\Cuarto semestre\Plataformas Computacionales\Hill_project\frontend\.next\dev\static\chunks\4ffd6_Plataformas Computacionales_Hill_project_frontend_src_styles_pages_css_bad6b30c._.single.css exceeds max length of filesystem
+[00:00:01.825] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 4.9.5
+[00:00:02.207] Server  LOG      ✓ Ready in 1452ms
+[00:00:04.647] Server  ERROR   TypeError: Invalid URL
+[00:00:04.663] Server  ERROR    ⨯ Error: Failed to parse src "../../public/login-image.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:00:05.018] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.354] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:00:05.354] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:00:05.354] Browser ERROR   uncaughtError: Error: Failed to parse src "../../public/login-image.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:00:14.391] Server  ERROR   TypeError: Invalid URL
+[00:00:14.403] Server  ERROR    ⨯ Error: Failed to parse src "../../public/login-image.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:00:14.605] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.761] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:00:14.761] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:00:14.761] Browser ERROR   uncaughtError: Error: Failed to parse src "../../public/login-image.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:02:57.555] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:57.561] Server  LOG      ✓ Compiled in 17ms
+[00:02:58.386] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:09.073] Server  LOG      ✓ Compiled in 12ms
+[00:03:12.034] Server  LOG      ✓ Compiled in 10ms
+[00:03:16.818] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:24.590] Server  LOG      ✓ Compiled in 8ms
+[00:03:27.050] Server  LOG      ✓ Compiled in 9ms
+[00:03:34.724] Server  LOG      ✓ Compiled in 13ms
+[00:03:45.457] Server  LOG      ✓ Compiled in 11ms
+[00:03:46.484] Server  LOG      ✓ Compiled in 8ms
+[00:04:24.006] Server  LOG      ✓ Compiled in 34ms
+[00:04:24.354] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:43
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={hill-login-container hill-login-page">
+     |                                           ^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
 
-Caused by:
-- file is too long, and could not be normalized
-[00:00:28.994] Server  LOG      ○ Compiling /_error ...
+Expected '}', got 'hill'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:04:26.350] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:43
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={hill-login-container hill-login-page}>
+     |                                           ^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'hill'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:04:31.340] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:50
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hill-login-container hill-login-page}>
+     |                                                  ^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'hill'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:04:50.521] Server  LOG      ✓ Compiled in 7ms
+[00:04:51.351] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:50
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hill-login-container hill-login-page}>
+     |                                                  ^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'hill'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:04:53.205] Server  LOG      ✓ Compiled in 7ms
+[00:04:53.306] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:50
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hill-login-container hill-login-page}>
+     |                                                  ^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'hill'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:04:59.349] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:49
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLogin-container hill-login-page}>
+     |                                                 ^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'hill'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:01.349] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer hill-login-page}>
+     |                                                ^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'hill'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:08.350] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles={.}hill-login-page}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:11.351] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles=hill-login-page}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:19.350] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles.hill-login-page}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:29.084] Server  LOG      ✓ Compiled in 8ms
+[00:05:29.345] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles.hill-login-page}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:32.784] Server  LOG      ✓ Compiled in 7ms
+[00:05:33.350] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles.hill-login-page}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:37.348] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles.hillLogin-page}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:39.349] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles.hillLoginPage}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:05:56.731] Server  LOG      ✓ Compiled in 11ms
+[00:05:57.343] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles=hill-login-page}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:06:00.339] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:41:48
+Parsing ecmascript source code failed
+  39 |
+  40 |   return (
+> 41 |     <main className={styles.hillLoginContainer styles.hillLoginPage}>
+     |                                                ^^^^^^
+  42 |       <div className="hill-login__image">
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+
+Expected '}', got 'styles'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:06:10.341] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:06:10.341] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:06:10.341] Browser ERROR   uncaughtError: Error: Failed to parse src "../../public/login-image.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:06:11.599] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:11.888] Server  LOG      ✓ Compiled in 24ms
+[00:06:12.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:12.517] Browser WARN    Image with src "/login-image.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:34.327] Server  LOG      ✓ Compiled in 10ms
+[00:07:54.922] Server  LOG      ✓ Compiled in 12ms
+[00:07:58.480] Server  LOG      ✓ Compiled in 11ms
+[00:08:07.974] Server  LOG      ✓ Compiled in 11ms
+[00:08:08.342] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:42:40
+Parsing ecmascript source code failed
+  40 |   return (
+  41 |     <main className={`${styles.hillLoginContainer} ${styles.hillLoginPage}`}>
+> 42 |       <div className={hill-login__image">
+     |                                        ^^
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+  44 |       </div>
+  45 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:08:10.625] Server  LOG      ✓ Compiled in 9ms
+[00:08:11.343] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:44:8
+Parsing ecmascript source code failed
+  42 |       <div className={hill-login__image>
+  43 |         <Image src="/login-image.jpg" alt="habitos saludables" width={480} height={640} className={styles.hillImage} />
+> 44 |       </div>
+     |        ^^^^^
+  45 |
+  46 |       <div className="hill-login__form-container">
+  47 |         <div className="hill-login__logo">
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:08:12.353] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:08:13.910] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:14.115] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:08:14.142] Server  LOG      ✓ Compiled in 7ms
+[00:08:14.327] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:15.350] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:08:16.915] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:17.102] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:08:17.119] Server  LOG      ✓ Compiled in 8ms
+[00:08:17.321] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:18.354] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:08:19.941] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:20.183] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:08:20.215] Server  LOG      ✓ Compiled in 7ms
+[00:08:20.385] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:21.355] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:08:44.972] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:45.183] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:08:45.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:46.354] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:08:55.827] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:56.044] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:08:56.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:57.350] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:08:58.435] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:58.615] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:08:58.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:59.349] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:09:00.538] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:00.712] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:09:00.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:01.351] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:09:18.937] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:18.952] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:19.192] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:09:19.366] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:20.123] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:09:20.127] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:20.303] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:09:20.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:21.353] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:09:28.658] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:28.937] Server  ERROR    ⨯ ReferenceError: hill_login__image is not defined
+[00:09:28.971] Server  LOG      ✓ Compiled in 14ms
+[00:09:29.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:30.351] Browser ERROR   uncaughtError: ReferenceError: hill_login__image is not defined
+[00:09:35.320] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:35.519] Server  LOG      ✓ Compiled in 46ms
+[00:09:35.966] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:48.468] Browser WARN    Image with src "/login-image.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:10:17.993] Server  LOG      ✓ Compiled in 51ms
+[00:10:18.349] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:46:49
+Parsing ecmascript source code failed
+  44 |       </div>
+  45 |
+> 46 |       <div className={hill-login__form-container">
+     |                                                 ^^
+  47 |         <div className="hill-login__logo">
+  48 |           <img src="/img/Hill_imagen_logo.jpg" alt="logo hill" className="hill-logo" />
+  49 |         </div>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:10:20.345] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:10:25.171] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:25.429] Server  ERROR    ⨯ ReferenceError: styleshill is not defined
+[00:10:25.455] Server  LOG      ✓ Compiled in 17ms
+[00:10:25.456] Browser ERROR   uncaughtError: ReferenceError: styleshill is not defined
+[00:10:25.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:26.347] Browser ERROR   uncaughtError: ReferenceError: styleshill is not defined
+[00:10:26.434] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:26.626] Server  ERROR    ⨯ ReferenceError: login__form is not defined
+[00:10:26.645] Server  LOG      ✓ Compiled in 21ms
+[00:10:26.803] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:27.347] Browser ERROR   uncaughtError: ReferenceError: login__form is not defined
+[00:10:34.820] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:35.046] Server  ERROR    ⨯ ReferenceError: login__form is not defined
+[00:10:35.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:36.340] Browser ERROR   uncaughtError: ReferenceError: login__form is not defined
+[00:10:37.220] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:37.472] Server  ERROR    ⨯ ReferenceError: login__form is not defined
+[00:10:37.504] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/Hill_project_frontend_src_styles_e25fc91a._.css
+[00:10:37.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:38.349] Browser ERROR   uncaughtError: ReferenceError: login__form is not defined
+[00:10:41.150] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:41.370] Server  ERROR    ⨯ ReferenceError: container is not defined
+[00:10:41.390] Server  LOG      ✓ Compiled in 14ms
+[00:10:41.542] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:42.349] Browser ERROR   uncaughtError: ReferenceError: container is not defined
+[00:10:43.416] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:43.613] Server  LOG      ✓ Compiled in 17ms
+[00:10:44.018] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:45.180] Browser WARN    Image with src "/login-image.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:10:50.991] Server  LOG      ✓ Compiled in 16ms
+[00:10:51.345] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:51:24
+Parsing ecmascript source code failed
+  49 |         </div>
+  50 |
+> 51 |         <div className=hill-login__form">
+     |                        ^^^^
+  52 |           <h2 className="hill-login__title">Iniciar Sesión</h2>
+  53 |
+  54 |           <form className="hill-form" onSubmit={handleSubmit}>
+
+Expected '</', got 'hill'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:10:52.341] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:51:41
+Parsing ecmascript source code failed
+  49 |         </div>
+  50 |
+> 51 |         <div className={hill-login__form">
+     |                                         ^^
+  52 |           <h2 className="hill-login__title">Iniciar Sesión</h2>
+  53 |
+  54 |           <form className="hill-form" onSubmit={handleSubmit}>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:10:55.343] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:11:09.673] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:10.002] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:11:10.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:11.346] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:11:12.006] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:12.170] Server  ERROR    ⨯ ReferenceError: hill is not defined
+[00:11:12.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:13.342] Browser ERROR   uncaughtError: ReferenceError: hill is not defined
+[00:12:08.446] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:08.637] Server  LOG      ✓ Compiled in 9ms
+[00:12:08.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:00.381] Server  LOG      ✓ Compiled in 12ms
+[00:15:03.446] Server  LOG      ✓ Compiled in 38ms
+[00:15:08.681] Server  LOG      ✓ Compiled in 11ms
+[00:15:11.698] Server  LOG      ✓ Compiled in 9ms
+[00:15:19.309] Browser WARN    Image with src "/login-image.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:35.733] Server  LOG      ✓ Compiled in 13ms
+[00:16:13.697] Server  LOG      ✓ Compiled in 11ms
+[00:16:15.696] Server  LOG      ✓ Compiled in 19ms
+[00:16:16.345] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:51:24
+Parsing ecmascript source code failed
+  49 |         </div>
+  50 |
+> 51 |         <div className=hill_login__form">
+     |                        ^^^^^^^^^^^^^^^^
+  52 |           <h2 className="hill-login__title">Iniciar Sesión</h2>
+  53 |
+  54 |           <form className="hill-form" onSubmit={handleSubmit}>
+
+Expected '</', got 'hill_login__form'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:16:17.343] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:51:41
+Parsing ecmascript source code failed
+  49 |         </div>
+  50 |
+> 51 |         <div className={hill_login__form">
+     |                                         ^^
+  52 |           <h2 className="hill-login__title">Iniciar Sesión</h2>
+  53 |
+  54 |           <form className="hill-form" onSubmit={handleSubmit}>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:16:19.347] Browser ERROR   uncaughtError: ReferenceError: hill_login__form is not defined
+[00:16:22.594] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:22.853] Server  LOG      ✓ Compiled in 16ms
+[00:16:23.379] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:31.886] Server  LOG      ✓ Compiled in 12ms
+[00:16:33.847] Server  LOG      ✓ Compiled in 20ms
+[00:16:34.346] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:52:43
+Parsing ecmascript source code failed
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+> 52 |           <h2 className={hill_login__title">Iniciar Sesión</h2>
+     |                                           ^^^^^^^^^^^^^^^^^^^^^^
+  53 |
+  54 |           <form className="hill-form" onSubmit={handleSubmit}>
+  55 |             <div className="hill-form-group">
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:16:37.343] Browser ERROR   uncaughtError: ReferenceError: hill_login__title is not defined
+[00:16:41.293] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:41.530] Server  LOG      ✓ Compiled in 16ms
+[00:16:41.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:07.852] Server  LOG      ✓ Compiled in 17ms
+[00:17:08.342] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:54:37
+Parsing ecmascript source code failed
+  52 |           <h2 className={styles.hill_login__title}>Iniciar Sesión</h2>
+  53 |
+> 54 |           <form className={hill-form" onSubmit={handleSubmit}>
+     |                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  55 |             <div className="hill-form-group">
+  56 |               <label htmlFor="username" className="hill-form-label">Nombre de usuario</label>
+  57 |               <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} className="hill-form-input" required />
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:17:12.341] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:54:44
+Parsing ecmascript source code failed
+  52 |           <h2 className={styles.hill_login__title}>Iniciar Sesión</h2>
+  53 |
+> 54 |           <form className={styles.hill-form" onSubmit={handleSubmit}>
+     |                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  55 |             <div className="hill-form-group">
+  56 |               <label htmlFor="username" className="hill-form-label">Nombre de usuario</label>
+  57 |               <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} className="hill-form-input" required />
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:17:14.339] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:54:44
+Parsing ecmascript source code failed
+  52 |           <h2 className={styles.hill_login__title}>Iniciar Sesión</h2>
+  53 |
+> 54 |           <form className={styles.hill_form" onSubmit={handleSubmit}>
+     |                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  55 |             <div className="hill-form-group">
+  56 |               <label htmlFor="username" className="hill-form-label">Nombre de usuario</label>
+  57 |               <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} className="hill-form-input" required />
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:17:25.779] Server  LOG      ✓ Compiled in 14ms
+[00:17:30.492] Server  LOG      ✓ Compiled in 7ms
+[00:17:31.957] Server  LOG      ✓ Compiled in 9ms
+[00:17:34.309] Server  LOG      ✓ Compiled in 16ms
+[00:17:35.339] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:48:67
+Parsing ecmascript source code failed
+  46 |       <div className={styles.hill_login__form_container}>
+  47 |         <div className="hill-login__logo">
+> 48 |           <img src="/Hill_imagen_logo.jpg" width={alt="logo hill" className="hill-logo" />
+     |                                                                   ^^^^^^^^^
+  49 |         </div>
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+
+Expected '</', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:17:38.170] Server  LOG      ✓ Compiled in 49ms
+[00:17:38.341] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:48:53
+Parsing ecmascript source code failed
+  46 |       <div className={styles.hill_login__form_container}>
+  47 |         <div className="hill-login__logo">
+> 48 |           <img src="/Hill_imagen_logo.jpg" width={48a0lt="logo hill" className="hill-logo" />
+     |                                                     ^^^^
+  49 |         </div>
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+
+Expected '</', got 'a0lt'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:17:47.059] Server  LOG      ✓ Compiled in 9ms
+[00:17:49.025] Server  LOG      ✓ Compiled in 19ms
+[00:17:49.349] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:48:79
+Parsing ecmascript source code failed
+  46 |       <div className={styles.hill_login__form_container}>
+  47 |         <div className="hill-login__logo">
+> 48 |           <img src="/Hill_imagen_logo.jpg" width={480} height={lt="logo hill" className="hill-logo" />
+     |                                                                               ^^^^^^^^^
+  49 |         </div>
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+
+Expected '</', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:17:53.357] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:48:67
+Parsing ecmascript source code failed
+  46 |       <div className={styles.hill_login__form_container}>
+  47 |         <div className="hill-login__logo">
+> 48 |           <img src="/Hill_imagen_logo.jpg" width={480} height={640lt="logo hill" className="hill-logo" />
+     |                                                                   ^^
+  49 |         </div>
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+
+Expected '</', got 'lt'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:18:03.465] Server  LOG      ✓ Compiled in 8ms
+[00:18:10.472] Server  LOG      ✓ Compiled in 30ms
+[00:18:11.354] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:48:51
+Parsing ecmascript source code failed
+  46 |       <div className={styles.hill_login__form_container}>
+  47 |         <div className="hill-login__logo">
+> 48 |           <img src="/Hill_imagen_logo.jpg" width= alt="logo hill" className="hill-logo" />
+     |                                                   ^^^
+  49 |         </div>
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+
+Expected '</', got 'alt'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:18:13.340] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:48:53
+Parsing ecmascript source code failed
+  46 |       <div className={styles.hill_login__form_container}>
+  47 |         <div className="hill-login__logo">
+> 48 |           <img src="/Hill_imagen_logo.jpg" width={} alt="logo hill" className="hill-logo" />
+     |                                                     ^^^
+  49 |         </div>
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+
+Expected '</', got 'alt'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:18:20.012] Server  LOG      ✓ Compiled in 13ms
+[00:18:20.345] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true height height true height
+[00:18:23.862] Server  LOG      ✓ Compiled in 12ms
+[00:18:24.339] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:48:64
+Parsing ecmascript source code failed
+  46 |       <div className={styles.hill_login__form_container}>
+  47 |         <div className="hill-login__logo">
+> 48 |           <img src="/Hill_imagen_logo.jpg" width={480} height= alt="logo hill" className="hill-logo" />
+     |                                                                ^^^
+  49 |         </div>
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+
+Expected '</', got 'alt'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:18:25.341] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:48:64
+Parsing ecmascript source code failed
+  46 |       <div className={styles.hill_login__form_container}>
+  47 |         <div className="hill-login__logo">
+> 48 |           <img src="/Hill_imagen_logo.jpg" width={480} height= alt="logo hill" className="hill-logo" />
+     |                                                                ^^^
+  49 |         </div>
+  50 |
+  51 |         <div className={styles.hill_login__form}>
+
+Expected '</', got 'alt'
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:18:34.327] Server  LOG      ✓ Compiled in 10ms
+[00:18:37.575] Server  LOG      ✓ Compiled in 9ms
+[00:18:44.155] Server  LOG      ✓ Compiled in 12ms
+[00:18:44.341] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:47:41
+Parsing ecmascript source code failed
+  45 |
+  46 |       <div className={styles.hill_login__form_container}>
+> 47 |         <div className={hill-login__logo">
+     |                                         ^^
+  48 |           <img src="/Hill_imagen_logo.jpg" width={48} height={64} alt="logo hill" className="hill-logo" />
+  49 |         </div>
+  50 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:18:48.341] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:47:48
+Parsing ecmascript source code failed
+  45 |
+  46 |       <div className={styles.hill_login__form_container}>
+> 47 |         <div className={styles.hill-login__logo">
+     |                                                ^^
+  48 |           <img src="/Hill_imagen_logo.jpg" width={48} height={64} alt="logo hill" className="hill-logo" />
+  49 |         </div>
+  50 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:18:51.349] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:47:48
+Parsing ecmascript source code failed
+  45 |
+  46 |       <div className={styles.hill_login__form_container}>
+> 47 |         <div className={styles.hill_login__logo">
+     |                                                ^^
+  48 |           <img src="/Hill_imagen_logo.jpg" width={48} height={64} alt="logo hill" className="hill-logo" />
+  49 |         </div>
+  50 |
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:18:59.168] Server  LOG      ✓ Compiled in 11ms
+[00:19:00.747] Server  LOG      ✓ Compiled in 16ms
+[00:19:04.135] Server  LOG      ✓ Compiled in 10ms
+[00:19:14.480] Server  LOG      ✓ Compiled in 16ms
+[00:19:15.351] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:55:44
+Parsing ecmascript source code failed
+  53 |
+  54 |           <form className={styles.hill_form} onSubmit={handleSubmit}>
+> 55 |             <div className={hill-form-group">
+     |                                            ^^
+  56 |               <label htmlFor="username" className="hill-form-label">Nombre de usuario</label>
+  57 |               <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} className="hill-form-input" required />
+  58 |             </div>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:19:21.340] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:55:51
+Parsing ecmascript source code failed
+  53 |
+  54 |           <form className={styles.hill_form} onSubmit={handleSubmit}>
+> 55 |             <div className={styles.hill-form-group">
+     |                                                   ^^
+  56 |               <label htmlFor="username" className="hill-form-label">Nombre de usuario</label>
+  57 |               <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} className="hill-form-input" required />
+  58 |             </div>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:19:24.356] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:55:51
+Parsing ecmascript source code failed
+  53 |
+  54 |           <form className={styles.hill_form} onSubmit={handleSubmit}>
+> 55 |             <div className={styles.hill_form-group">
+     |                                                   ^^
+  56 |               <label htmlFor="username" className="hill-form-label">Nombre de usuario</label>
+  57 |               <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} className="hill-form-input" required />
+  58 |             </div>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:19:26.347] Browser ERROR   ./Hill_project/frontend/app/login/page.tsx:55:51
+Parsing ecmascript source code failed
+  53 |
+  54 |           <form className={styles.hill_form} onSubmit={handleSubmit}>
+> 55 |             <div className={styles.hill_form_group">
+     |                                                   ^^
+  56 |               <label htmlFor="username" className="hill-form-label">Nombre de usuario</label>
+  57 |               <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} className="hill-form-input" required />
+  58 |             </div>
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:23:13.687] Server  LOG      ✓ Compiled in 13ms
+[00:23:16.586] Server  LOG      ✓ Compiled in 8ms
+[00:23:26.267] Server  LOG      ✓ Compiled in 9ms
+[00:23:28.621] Server  LOG      ✓ Compiled in 14ms
+[00:24:25.028] Server  LOG      ✓ Compiled in 8ms
+[00:24:26.167] Server  LOG      ✓ Compiled in 9ms
+[00:24:28.203] Server  LOG      ✓ Compiled in 9ms
+[00:24:40.204] Server  LOG      ✓ Compiled in 27ms
+[00:24:48.255] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:04.585] Server  LOG      ✓ Compiled in 48ms
+[00:25:07.696] Server  LOG      ✓ Compiled in 9ms
+[00:25:11.182] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:43.469] Server  LOG      ✓ Compiled in 169ms
+[00:25:44.340] Browser ERROR   ./Hill_project/frontend/src/styles/pages.module.css:94:15
+Parsing CSS source code failed
+  92 |   .hill_login_container {
+  93 |     flex-direction: column;*
+> 94 |     width: 90%;
+     |               ^
+  95 |     height: auto;
+  96 |   }
+  97 |   
+
+Unexpected token Semicolon
+
+Import traces:
+  Server Component:
+    ./Hill_project/frontend/src/styles/pages.module.css
+    ./Hill_project/frontend/app/layout.tsx
+
+  Client Component Browser:
+    ./Hill_project/frontend/src/styles/pages.module.css [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/src/styles/pages.module.css [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:25:49.341] Browser ERROR   ./Hill_project/frontend/src/styles/pages.module.css:94:15
+Parsing CSS source code failed
+  92 |   .hill_login_container {
+  93 |     flex-direction: column;*/
+> 94 |     width: 90%;
+     |               ^
+  95 |     height: auto;
+  96 |   }
+  97 |   
+
+Unexpected token Semicolon
+
+Import traces:
+  Server Component:
+    ./Hill_project/frontend/src/styles/pages.module.css
+    ./Hill_project/frontend/app/layout.tsx
+
+  Client Component Browser:
+    ./Hill_project/frontend/src/styles/pages.module.css [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/src/styles/pages.module.css [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/login/page.tsx [Server Component]
+[00:25:50.912] Server  LOG      ✓ Compiled in 14ms
+[00:25:52.809] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:56.361] Server  LOG      ✓ Compiled in 10ms
+[00:26:09.502] Server  LOG      ✓ Compiled in 9ms
+[00:26:22.643] Server  LOG      ✓ Compiled in 6ms
+[00:26:28.176] Server  LOG      ✓ Compiled in 6ms
+[00:26:32.059] Server  LOG      ✓ Compiled in 6ms
+[00:26:36.542] Server  LOG      ✓ Compiled in 7ms
