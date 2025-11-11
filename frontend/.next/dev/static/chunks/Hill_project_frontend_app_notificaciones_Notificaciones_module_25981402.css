@@ -1,0 +1,148 @@
+/* [project]/Hill_project/frontend/app/notificaciones/Notificaciones.module.css [app-client] (css) */
+.Notificaciones-module__IYMh9q__pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Notificaciones-module__IYMh9q__navigation {
+  background: #f5f5f0;
+  border-radius: 15px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 18px;
+  display: flex;
+  box-shadow: 0 4px 6px #00000014;
+}
+
+.Notificaciones-module__IYMh9q__navButton {
+  color: #2d5016;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  display: flex;
+}
+
+.Notificaciones-module__IYMh9q__navIcon {
+  background: #4a7c3a;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
+}
+
+.Notificaciones-module__IYMh9q__navIcon img {
+  object-fit: contain;
+  width: 38px;
+  height: 38px;
+}
+
+.Notificaciones-module__IYMh9q__navLabel {
+  color: #2d5016;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Notificaciones-module__IYMh9q__titleContainer {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.Notificaciones-module__IYMh9q__titleContainer h1 {
+  color: #2d5016;
+}
+
+.Notificaciones-module__IYMh9q__content {
+  grid-template-columns: 1fr 360px;
+  gap: 24px;
+  display: grid;
+}
+
+.Notificaciones-module__IYMh9q__mensajesSection {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 3px 6px #0000000a;
+}
+
+.Notificaciones-module__IYMh9q__notificacion {
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  display: flex;
+}
+
+.Notificaciones-module__IYMh9q__notificacion img {
+  width: 46px;
+  height: 46px;
+}
+
+.Notificaciones-module__IYMh9q__notificacionTexto p {
+  color: #333;
+  margin: 0;
+}
+
+.Notificaciones-module__IYMh9q__notificacionFecha {
+  text-align: right;
+  color: #777;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: auto;
+  font-size: 12px;
+  display: flex;
+}
+
+.Notificaciones-module__IYMh9q__tareas {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 3px 6px #0000000a;
+}
+
+.Notificaciones-module__IYMh9q__tareasTitulo {
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.Notificaciones-module__IYMh9q__tareas ul {
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Notificaciones-module__IYMh9q__tareas li {
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.Notificaciones-module__IYMh9q__tareas img {
+  width: 18px;
+  height: 18px;
+}
+
+.Notificaciones-module__IYMh9q__error {
+  color: #c0392b;
+}
+
+@media (max-width: 900px) {
+  .Notificaciones-module__IYMh9q__content {
+    grid-template-columns: 1fr;
+  }
+
+  .Notificaciones-module__IYMh9q__navigation {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
+
+/*# sourceMappingURL=Hill_project_frontend_app_notificaciones_Notificaciones_module_25981402.css.map*/

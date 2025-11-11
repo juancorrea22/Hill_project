@@ -45,7 +45,7 @@ export default function LoginPage() {
 
       <div className={styles.hill_login__form_container}>
         <div className={styles.hill_login__logo}>
-          <img src="/Hill_imagen_logo.jpg" width={60} height={64} alt="logo hill" className="hill-logo" />
+          <img src="/Hill_imagen_logo.jpg" width={60} height={64} alt="logo hill" className={styles.hill_logo} />
         </div>
 
         <div className={styles.hill_login__form}>

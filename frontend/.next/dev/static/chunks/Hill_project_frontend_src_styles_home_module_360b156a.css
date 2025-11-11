@@ -1,0 +1,116 @@
+/* [project]/Hill_project/frontend/src/styles/home.module.css [app-client] (css) */
+.home-module__bzvInq__container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.home-module__bzvInq__datetime {
+  text-align: center;
+  color: #2d5016;
+  background: #f5f5f0;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.home-module__bzvInq__tasks_container {
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  display: grid;
+}
+
+.home-module__bzvInq__task_section {
+  background: #f5f5f0;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.home-module__bzvInq__task_section h2 {
+  color: #2d5016;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.home-module__bzvInq__task_list {
+  flex-direction: column;
+  gap: 15px;
+  max-height: 400px;
+  padding-right: 10px;
+  display: flex;
+  overflow-y: auto;
+}
+
+.home-module__bzvInq__task_list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.home-module__bzvInq__task_list::-webkit-scrollbar-track {
+  background: #e0e0d5;
+  border-radius: 10px;
+}
+
+.home-module__bzvInq__task_list::-webkit-scrollbar-thumb {
+  background: #a8d5a8;
+  border-radius: 10px;
+}
+
+.home-module__bzvInq__task_item {
+  background: #fff;
+  border-radius: 10px;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  transition: transform .2s;
+  display: flex;
+}
+
+.home-module__bzvInq__task_item:hover {
+  transform: translateX(5px);
+}
+
+.home-module__bzvInq__task_icon {
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+}
+
+.home-module__bzvInq__task_icon.home-module__bzvInq__pending {
+  color: #dc3545;
+}
+
+.home-module__bzvInq__task_icon.home-module__bzvInq__completed {
+  color: #4a7c3a;
+}
+
+.home-module__bzvInq__task_text {
+  color: #333;
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .home-module__bzvInq__tasks_container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-module__bzvInq__navigation {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .home-module__bzvInq__nav_button {
+    flex-basis: calc(33.333% - 20px);
+  }
+}
+
+/*# sourceMappingURL=Hill_project_frontend_src_styles_home_module_360b156a.css.map*/

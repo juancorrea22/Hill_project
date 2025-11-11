@@ -1,8 +1,6 @@
 {
-<<<<<<< HEAD
   "/_not-found/page": "app/_not-found/page.js",
-  "/login/page": "app/login/page.js"
-=======
-  "/_not-found/page": "app/_not-found/page.js"
->>>>>>> c3951bbd92c72d6cb4f388393f86e16d4070f8b9
+  "/home/page": "app/home/page.js",
+  "/login/page": "app/login/page.js",
+  "/notificaciones/page": "app/notificaciones/page.js"
 }

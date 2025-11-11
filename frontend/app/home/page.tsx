@@ -2,6 +2,8 @@
 
 import React, { useEffect } from 'react';
 import Link from 'next/link';
+import Image from "next/image";
+import styles from "../../src/styles/home.module.css";
 
 export default function HomePage() {
   useEffect(() => {
@@ -22,55 +24,55 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="container">
-      <div className="navigation">
-        <Link href="/notificaciones" className="nav-button">
-          <div className="nav-icon">
-            <img src="/img/Icono_campana_hill.png" alt="Campana" />
+    <div className={styles.container}>
+      <div className={styles.navigation}>
+        <Link href="/notificaciones" className={styles.nav_button}>
+          <div className={styles.nav_icon}>
+            <Image src="/Icono_campana_hill.png" width={62} height={62} alt="Campana" />
           </div>
-          <span className="nav-label">Campana</span>
+          <span className={styles.nav_label}>Campana</span>
         </Link>
 
-        <Link href="/progreso" className="nav-button">
-          <div className="nav-icon">
-            <img src="/img/icono_progreso.png" alt="Progreso" />
+        <Link href="/progreso" className={styles.nav_button}>
+          <div className={styles.nav_icon}>
+            <Image src="/icono_progreso.png" width={62} height={62} alt="Progreso" />
           </div>
-          <span className="nav-label">Progreso</span>
+          <span className={styles.nav_label}>Progreso</span>
         </Link>
 
-        <Link href="/home" className="nav-button">
-          <div className="nav-icon">
-            <img src="/img/Hill_imagen_logo.jpg" alt="Hill" />
+        <Link href="/home" className={styles.nav_button}>
+          <div className={styles.nav_icon}>
+            <Image src="/Hill_imagen_logo.jpg" width={62} height={62} alt="Hill" />
           </div>
-          <span className="nav-label">Hill</span>
+          <span className={styles.nav_label}>Hill</span>
         </Link>
 
-        <Link href="/logros" className="nav-button">
-          <div className="nav-icon">
-            <img src="/img/Icono_logro.png" alt="Logros" />
+        <Link href="/logros" className={styles.nav_button}>
+          <div className={styles.nav_icon}>
+            <Image src="/Icono_logro.png" width={62} height={62} alt="Logros" />
           </div>
-          <span className="nav-label">Logros</span>
+          <span className={styles.nav_label}>Logros</span>
         </Link>
 
-        <Link href="/opciones" className="nav-button">
-          <div className="nav-icon">
-            <img src="/img/icono_opciones.png" alt="Opciones" />
+        <Link href="/opciones" className={styles.nav_button}>
+          <div className={styles.nav_icon}>
+            <Image src="/icono_opciones.png" width={62} height={62} alt="Opciones" />
           </div>
-          <span className="nav-label">Opciones</span>
+          <span className={styles.nav_label}>Opciones</span>
         </Link>
       </div>
 
-      <div className="datetime" id="hora"></div>
+      <div className={styles.datetime} id="hora"></div>
 
-      <div className="tasks-container">
-        <div className="task-section">
+      <div className={styles.tasks_container}>
+        <div className={styles.task_section}>
           <h2>Tareas Restantes:</h2>
-          <div className="task-list" id="task-list-pending"></div>
+          <div className={styles.task_list} id="task-list-pending"></div>
         </div>
 
-        <div className="task-section">
+        <div className={styles.task_section}>
           <h2>Tareas Completadas:</h2>
-          <div className="task-list" id="task-list-completed"></div>
+          <div className={styles.task_list} id="task-list-completed"></div>
         </div>
       </div>
     </div>

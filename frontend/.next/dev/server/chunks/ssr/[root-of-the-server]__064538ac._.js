@@ -130,7 +130,7 @@ function LoginPage() {
                             width: 60,
                             height: 64,
                             alt: "logo hill",
-                            className: "hill-logo"
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$Hill_project$2f$frontend$2f$src$2f$styles$2f$pages$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].hill_logo
                         }, void 0, false, {
                             fileName: "[project]/Hill_project/frontend/app/login/page.tsx",
                             lineNumber: 48,

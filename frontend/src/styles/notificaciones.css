@@ -1,10 +1,10 @@
-.page-container {
+.page_container {
     max-width: 1400px;
     margin: 0 auto;
 }
 
 /* Título principal centrado */
-.title-container {
+.title_container {
     background: #f5f5f0;
     border-radius: 15px;
     padding: 30px;
@@ -13,7 +13,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.title-container h1 {
+.title_container h1 {
     margin: 0;
     font-size: 48px;
     color: #2d5016;
@@ -28,14 +28,14 @@
 }
 
 /* Sección de mensajes (izquierda) */
-.mensajes-section {
+.mensajes_section {
     background: #f5f5f0;
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.mensajes-section h2 {
+.mensajes_section h2 {
     margin: 0 0 20px 0;
     color: #2d5016;
     font-size: 24px;
@@ -58,24 +58,24 @@
     flex-shrink: 0;
 }
 
-.notificacion-texto {
+.notificacion_texto {
     flex: 1;
 }
 
-.notificacion-texto p {
+.notificacion_texto p {
     margin: 0;
     color: #333;
     font-size: 16px;
 }
 
-.notificacion-fecha {
+.notificacion_fecha {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 2px;
 }
 
-.notificacion-fecha small {
+.notificacion_fecha small {
     color: #666;
     font-size: 12px;
 }
@@ -88,7 +88,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.tareas-titulo {
+.tareas_titulo {
     margin: 0 0 20px 0;
     color: #2d5016;
     font-size: 18px;
@@ -130,7 +130,7 @@
 }
 
 @media (max-width: 768px) {
-    .title-container h1 {
+    .title_container h1 {
         font-size: 36px;
     }
 }

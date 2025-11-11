@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from "next/image";
 import styles from './Notificaciones.module.css';
 
 type Notification = {
@@ -72,27 +73,27 @@ export default function NotificacionesPage() {
     <div className={styles.pageContainer}>
       <div className={styles.navigation}>
         <Link href="/notificaciones" className={styles.navButton}>
-          <div className={styles.navIcon}><img src="/img/Icono_campana_hill.png" alt="Campana" /></div>
+          <div className={styles.navIcon}><Image src="/Icono_campana_hill.png" width={60} height={60} alt="Campana" /></div>
           <span className={styles.navLabel}>Campana</span>
         </Link>
 
         <Link href="/progreso" className={styles.navButton}>
-          <div className={styles.navIcon}><img src="/img/icono_progreso.png" alt="Progreso" /></div>
+          <div className={styles.navIcon}><Image src="/icono_progreso.png" width={60} height={60} alt="Progreso" /></div>
           <span className={styles.navLabel}>Progreso</span>
         </Link>
 
         <Link href="/home" className={styles.navButton}>
-          <div className={styles.navIcon}><img src="/img/Hill_imagen_logo.jpg" alt="Hill" /></div>
+          <div className={styles.navIcon}><Image src="/Hill_imagen_logo.jpg" width={60} height={60} alt="Hill" /></div>
           <span className={styles.navLabel}>Hill</span>
         </Link>
 
         <Link href="/logros" className={styles.navButton}>
-          <div className={styles.navIcon}><img src="/img/Icono_logro.png" alt="Logros" /></div>
+          <div className={styles.navIcon}><Image src="/Icono_logro.png" width={60} height={60} alt="Logros" /></div>
           <span className={styles.navLabel}>Logros</span>
         </Link>
 
         <Link href="/opciones" className={styles.navButton}>
-          <div className={styles.navIcon}><img src="/img/icono_opciones.png" alt="Opciones" /></div>
+          <div className={styles.navIcon}><Image src="/icono_opciones.png" width={60} height={60} alt="Opciones" /></div>
           <span className={styles.navLabel}>Opciones</span>
         </Link>
       </div>
@@ -112,7 +113,7 @@ export default function NotificacionesPage() {
 
           {notifications?.map((n) => (
             <div key={n.id} className={styles.notificacion}>
-              <img src="/img/Icono_campana_hill.png" alt="Notificación" />
+              <Image src="/Icono_campana_hill.png" width={60} height={60} alt="Notificación" />
               <div className={styles.notificacionTexto}>
                 <p><b>{n.title}</b></p>
               </div>
@@ -131,7 +132,7 @@ export default function NotificacionesPage() {
             <ul>
               {tasks.map((t) => (
                 <li key={t.id}>
-                  <img src="/img/icono_x_roja.png" alt="X" />
+                  <Image src="/icono_x_roja.png" width={60} height={60} alt="X" />
                   <span>{t.title}</span>
                 </li>
               ))}
