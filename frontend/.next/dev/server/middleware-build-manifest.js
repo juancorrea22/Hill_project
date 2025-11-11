@@ -1,23 +1,48 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/6e3e7_next_dist_compiled_3c46f4aa._.js",
+      "static/chunks/6e3e7_next_dist_shared_lib_821f3144._.js",
+      "static/chunks/6e3e7_next_dist_client_bd0c0695._.js",
+      "static/chunks/6e3e7_next_dist_d522a981._.js",
+      "static/chunks/6e3e7_next_app_0adba6e2.js",
+      "static/chunks/[next]_entry_page-loader_ts_d54c7412._.js",
+      "static/chunks/6e3e7_react-dom_5ef69bf4._.js",
+      "static/chunks/6e3e7_23510ed9._.js",
+      "static/chunks/[root-of-the-server]__03f1a1a1._.js",
+      "static/chunks/faf55_4_Plataformas_computacionales_Hill_project_frontend_pages__app_2da965e7._.js",
+      "static/chunks/b02f5_4_Plataformas_computacionales_Hill_project_frontend_pages__app_d378ccdf._.js"
+    ],
+    "/_error": [
+      "static/chunks/6e3e7_next_dist_compiled_3c46f4aa._.js",
+      "static/chunks/6e3e7_next_dist_shared_lib_f5da4156._.js",
+      "static/chunks/6e3e7_next_dist_client_bd0c0695._.js",
+      "static/chunks/6e3e7_next_dist_a4b22aab._.js",
+      "static/chunks/6e3e7_next_error_4458dce0.js",
+      "static/chunks/[next]_entry_page-loader_ts_ce1f7f1b._.js",
+      "static/chunks/6e3e7_react-dom_5ef69bf4._.js",
+      "static/chunks/6e3e7_23510ed9._.js",
+      "static/chunks/[root-of-the-server]__f9128d43._.js",
+      "static/chunks/faf55_4_Plataformas_computacionales_Hill_project_frontend_pages__error_2da965e7._.js",
+      "static/chunks/b02f5_4_Plataformas_computacionales_Hill_project_frontend_pages__error_56079c82._.js"
+    ]
   },
   "devFiles": [],
   "polyfillFiles": [
-    "static/chunks/7d65b_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/6e3e7_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_e74e1665._.js",
-    "static/chunks/7d65b_next_dist_compiled_react-dom_6d690f44._.js",
-    "static/chunks/7d65b_next_dist_compiled_react-server-dom-turbopack_ed726c8f._.js",
-    "static/chunks/7d65b_next_dist_compiled_next-devtools_index_3c50d50c.js",
-    "static/chunks/7d65b_next_dist_compiled_ffdc6ff1._.js",
-    "static/chunks/7d65b_next_dist_client_9a2a9b29._.js",
-    "static/chunks/7d65b_next_dist_1b2355ac._.js",
-    "static/chunks/7d65b_@swc_helpers_cjs_c5d43dca._.js",
-    "static/chunks/Hill_project_frontend_a0ff3932._.js",
-    "static/chunks/turbopack-Hill_project_frontend_15bbdd81._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0d3d7376._.js",
+    "static/chunks/6e3e7_next_dist_compiled_react-dom_4ebc2c5c._.js",
+    "static/chunks/6e3e7_next_dist_compiled_react-server-dom-turbopack_40fef3f4._.js",
+    "static/chunks/6e3e7_next_dist_compiled_next-devtools_index_ab47004a.js",
+    "static/chunks/6e3e7_next_dist_compiled_01912e3e._.js",
+    "static/chunks/6e3e7_next_dist_client_15a0ab46._.js",
+    "static/chunks/6e3e7_next_dist_ffc48706._.js",
+    "static/chunks/6e3e7_@swc_helpers_cjs_1a9753e0._.js",
+    "static/chunks/ff1ff_Semestre_4_Plataformas_computacionales_Hill_project_frontend_a0ff3932._.js",
+    "static/chunks/a5475_Semestre_4_Plataformas_computacionales_Hill_project_frontend_9a1d235b._.js"
   ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [

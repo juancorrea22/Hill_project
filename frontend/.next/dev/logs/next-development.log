@@ -1292,3 +1292,729 @@ Import traces:
 
 https://nextjs.org/docs/messages/module-not-found
 [00:10:49.532] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/avatar_default.png" "received" null
+[00:14:55.090] Server  LOG      ✓ Compiled in 38ms
+[00:14:55.329] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:56.533] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:56.781] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:56.820] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:56.857] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:56.905] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:56.965] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.013] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.059] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.100] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:57.151] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.189] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.227] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.274] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.310] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:57.361] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.402] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.445] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.479] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.515] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:57.564] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.605] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.650] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.694] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.732] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:57.781] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.828] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.874] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:57.906] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:57.934] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:57.977] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.010] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.058] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.096] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.124] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:58.175] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.216] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.268] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.309] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.340] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:58.386] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.419] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.454] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.499] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.530] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:58.575] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.613] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.657] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.694] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.735] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:58.782] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.825] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.871] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:58.910] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:58.938] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:58.974] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.020] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.063] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.107] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.138] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:59.183] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.217] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.273] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.320] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.354] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:59.412] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.453] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.508] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.552] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.588] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:59.630] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.664] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.718] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.760] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.795] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:14:59.831] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.871] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.921] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:14:59.953] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:14:59.995] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:00.046] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:00.091] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:00.137] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:00.185] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:00.223] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:00.280] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:00.329] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:00.382] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:00.429] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:00.460] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:00.502] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:00.549] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:00.603] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:00.642] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:00.669] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:00.717] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:00.766] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:00.822] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:00.866] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:00.901] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:00.957] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.000] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.064] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.113] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.152] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:01.208] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.259] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.318] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.358] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.393] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:01.452] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.494] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.548] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.590] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.616] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:01.668] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.699] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.754] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.799] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.838] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:01.885] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.913] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:01.961] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:01.998] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.037] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:02.093] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:02.149] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.232] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:02.283] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.312] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:02.364] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:02.406] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.449] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:02.492] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.520] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:02.566] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:02.606] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.654] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:02.690] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.716] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
+[00:15:02.762] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:02.799] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.851] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\app\login\page\build-manifest.json'
+[00:15:02.891] Server  ERROR    ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\server\pages\_document.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\require.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:15:02.923] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\caren\OneDrive\Desktop\cosas_Universidad\Semestre_4\Plataformas_computacionales\Hill_project\frontend\.next\dev\routes-manifest.json'
