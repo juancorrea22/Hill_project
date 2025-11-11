@@ -66,12 +66,12 @@ export default function HomePage() {
 
       <div className={styles.tasks_container}>
         <div className={styles.task_section}>
-          <h2>Tareas Restantes:</h2>
+          <h2>Tareas restantes:</h2>
           <div className={styles.task_list} id="task-list-pending"></div>
         </div>
 
         <div className={styles.task_section}>
-          <h2>Tareas Completadas:</h2>
+          <h2>Tareas completadas:</h2>
           <div className={styles.task_list} id="task-list-completed"></div>
         </div>
       </div>

@@ -40,6 +40,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Hill_project$2f$frontend$2f$
 ;
 ;
 ;
+;
 const metadata = {
     title: 'Hill',
     description: 'Hill - seguimiento de hábitos'
@@ -51,12 +52,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/Hill_project/frontend/app/layout.tsx",
-            lineNumber: 16,
+            lineNumber: 17,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Hill_project/frontend/app/layout.tsx",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }

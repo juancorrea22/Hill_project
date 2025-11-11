@@ -1,6 +1,11 @@
+'use client';
+
 import React, { useState } from "react";
-import "../css/globalApp.css";
-import "../css/opciones.css";
+import { useRouter } from 'next/navigation';
+import Image from "next/image";
+import styles from "../../src/styles/opciones.module.css";
+import '../../src/styles/globalApp.css';
+import "../../src/styles/opciones.modules.css";
 
 const Opciones: React.FC = () => {
   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");

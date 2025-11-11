@@ -1,0 +1,81 @@
+/* [project]/Hill_project/frontend/src/styles/globalApp.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+:root {
+  --color-principal: #2d5016;
+  --bg-grad-1: #a8d5a8;
+  --bg-grad-2: #8bc68b;
+}
+
+body {
+  background: linear-gradient(135deg, #a8d5a8 0%, #8bc68b 100%);
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.navigation {
+  background: #f5f5f0;
+  border-radius: 15px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.nav-button {
+  cursor: pointer;
+  color: #2d5016;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  transition: transform .2s;
+  display: flex;
+}
+
+.nav-button:hover {
+  transform: translateY(-5px);
+}
+
+.nav-icon {
+  background: #4a7c3a;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-label {
+  color: #2d5016;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icon-bell, .icon-progress, .icon-mountain, .icon-medal, .icon-gear {
+  fill: #fff;
+  width: 35px;
+  height: 35px;
+}
+
+.nav-icon img {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=Hill_project_frontend_src_styles_globalApp_css_bad6b30c._.single.css.map*/

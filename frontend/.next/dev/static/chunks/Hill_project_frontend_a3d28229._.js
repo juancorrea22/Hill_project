@@ -2,15 +2,18 @@
 "[project]/Hill_project/frontend/src/styles/home.module.css [app-client] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
-  "completed": "home-module__bzvInq__completed",
   "container": "home-module__bzvInq__container",
   "datetime": "home-module__bzvInq__datetime",
   "nav_button": "home-module__bzvInq__nav_button",
+  "nav_icon": "home-module__bzvInq__nav_icon",
+  "nav_label": "home-module__bzvInq__nav_label",
   "navigation": "home-module__bzvInq__navigation",
-  "pending": "home-module__bzvInq__pending",
+  "tareas": "home-module__bzvInq__tareas",
+  "tareasTitulo": "home-module__bzvInq__tareasTitulo",
   "task_icon": "home-module__bzvInq__task_icon",
   "task_item": "home-module__bzvInq__task_item",
   "task_list": "home-module__bzvInq__task_list",
+  "task_meta": "home-module__bzvInq__task_meta",
   "task_section": "home-module__bzvInq__task_section",
   "task_text": "home-module__bzvInq__task_text",
   "tasks_container": "home-module__bzvInq__tasks_container",
@@ -257,7 +260,7 @@ function HomePage() {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$Hill_project$2f$frontend$2f$src$2f$styles$2f$home$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].task_section,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hill_project$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                children: "Tareas Restantes:"
+                                children: "Tareas restantes:"
                             }, void 0, false, {
                                 fileName: "[project]/Hill_project/frontend/app/home/page.tsx",
                                 lineNumber: 69,
@@ -281,7 +284,7 @@ function HomePage() {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$Hill_project$2f$frontend$2f$src$2f$styles$2f$home$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].task_section,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hill_project$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                children: "Tareas Completadas:"
+                                children: "Tareas completadas:"
                             }, void 0, false, {
                                 fileName: "[project]/Hill_project/frontend/app/home/page.tsx",
                                 lineNumber: 74,

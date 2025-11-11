@@ -1,3 +1,20 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+:root {
+  --color-principal: #2d5016;
+  --bg-grad-1: #a8d5a8;
+  --bg-grad-2: #8bc68b;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #a8d5a8 0%, #8bc68b 100%);
