@@ -1,730 +1,18 @@
-[00:00:02.466] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 4.9.5
-[00:00:02.895] Server  LOG      ✓ Ready in 1718ms
-[00:00:10.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:01.783] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:03.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:24:12.496] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:25:00.069] Server  LOG      ✓ Compiled in 52ms
-[01:25:02.690] Server  LOG      ✓ Compiled in 155ms
-[01:25:03.261] Browser ERROR   ./Hill_project/frontend/src/styles/home.module.css
-Transforming CSS failed
-Selector "*" is not pure. Pure selectors must contain at least one local class or id.
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/src/styles/home.module.css [Client Component Browser]
-    ./Hill_project/frontend/app/home/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/src/styles/home.module.css [Client Component SSR]
-    ./Hill_project/frontend/app/home/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/home/page.tsx [Server Component]
-[01:35:25.250] Server  LOG      ✓ Compiled in 44ms
-[01:35:26.259] Browser ERROR   ./Hill_project/frontend/src/styles/home.module.css:5:4
-Parsing CSS source code failed
-  3 |     padding: 0;
-  4 |     box-sizing: border-box;
-> 5 | } */
-    |    ^
-  6 |
-  7 | .container {
-  8 |     max-width: 1400px;
-
-Unexpected token Delim('/')
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/src/styles/home.module.css [Client Component Browser]
-    ./Hill_project/frontend/app/home/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/src/styles/home.module.css [Client Component SSR]
-    ./Hill_project/frontend/app/home/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/home/page.tsx [Server Component]
-[01:35:26.259] Browser ERROR   ./Hill_project/frontend/src/styles/home.module.css
-Transforming CSS failed
-Selector "*" is not pure. Pure selectors must contain at least one local class or id.
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/src/styles/home.module.css [Client Component Browser]
-    ./Hill_project/frontend/app/home/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/home/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/src/styles/home.module.css [Client Component SSR]
-    ./Hill_project/frontend/app/home/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/home/page.tsx [Server Component]
-[01:38:28.143] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:28.147] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:28.154] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:28.158] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:28.162] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:28.164] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:28.167] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:28.169] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:28.172] Server  ERROR    ⨯ ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[01:38:29.269] Browser ERROR   ./Hill_project/frontend/app/layout.tsx:3:1
-Module not found: Can't resolve '../src/styles/globals.css'
-  1 | import React from 'react';
-  2 |
-> 3 | import '../src/styles/globals.css';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import '../src/styles/pages.module.css';
-  5 | import '../src/styles/layout.css';
-  6 | import '../src/styles/components.css';
-
-https://nextjs.org/docs/messages/module-not-found
-[01:38:34.862] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:53:22.172] Server  LOG      ✓ Compiled in 102ms
-[01:54:42.867] Server  LOG      ✓ Compiled in 38ms
-[01:56:57.475] Server  LOG      ✓ Compiled in 8ms
-[01:57:25.033] Server  LOG      ✓ Compiled in 8ms
-[01:57:41.490] Server  LOG      ✓ Compiled in 7ms
-[01:59:27.582] Server  LOG      ✓ Compiled in 7ms
-[01:59:47.119] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:59:48.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:02.009] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:03.035] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:04.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:05.161] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:06.217] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:07.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:06:10.444] Server  LOG      ✓ Compiled in 213ms
-[02:06:12.794] Server  LOG      ✓ Compiled in 23ms
-[02:07:57.528] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:07:59.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:08:15.237] Server  LOG      ✓ Compiled in 374ms
-[02:08:21.067] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-
-
-
-
-./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-
-./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:08:21.201] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:08:21.201] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:21.201] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:22.120] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:08:22.120] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:22.120] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:22.120] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:08:22.120] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:22.120] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:22.680] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-
-
-
-
-./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-
-./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:08:22.909] Browser ERROR   uncaughtError: Error: ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-
-
-
-
-[02:08:23.103] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:08:23.104] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:23.104] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:23.104] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:08:23.104] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:23.104] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:41.494] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { use } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:08:41.496] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { use } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:08:42.262] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { use } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:42.262] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { use } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:45.161] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:1:38
-Module not found: Can't resolve '../css/globalApp.css'
-> 1 | import React, { use clie } from "react";
-    |                                      ^^^
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:08:45.164] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:2:28
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { use clie } from "react";
-> 2 | import "../css/globalApp.css";
-    |                            ^^^
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:08:45.315] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:1:21
+[00:00:02.489] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 4.9.5
+[00:00:03.017] Server  LOG      ✓ Ready in 2.1s
+[00:00:06.782] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.971] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:14.406] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:58:10
 Parsing ecmascript source code failed
-> 1 | import React, { use clie } from "react";
-    |                     ^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
+  56 |       {/* Barra de navegación */}
+  57 |       <div className="navigation">
+> 58 |         <<a> href="notificaciones.html" className="nav-button">
+     |          ^
+  59 |           <div className="nav-icon">
+  60 |             <img src="../img/Icono_campana_hill.png" alt="Campana" />
+  61 |           </div>
 
-Expected ',', got 'clie'
-[02:08:45.316] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:1:38
-Module not found: Can't resolve '../css/globalApp.css'
-> 1 | import React, { use clie } from "react";
-    |                                      ^^^
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:45.316] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:28
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { use clie } from "react";
-> 2 | import "../css/globalApp.css";
-    |                            ^^^
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:08:59.984] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { use } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:08:59.987] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { use } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:09:00.266] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { use } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:09:00.266] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { use } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:09:11.995] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:09:12.000] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:09:12.265] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:1:17
-Ecmascript file had an error
-> 1 | import React, { useState } from "react";
-    |                 ^^^^^^^^
-  2 | import "../css/globalApp.css";
-  3 | import "../css/opciones.css";
-  4 |
-
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
-
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[02:09:12.265] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:2:1
-Module not found: Can't resolve '../css/globalApp.css'
-  1 | import React, { useState } from "react";
-> 2 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 | import "../css/opciones.css";
-  4 |
-  5 | const Opciones: React.FC = () => {
-
-https://nextjs.org/docs/messages/module-not-found
-[02:09:12.265] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:3:1
-Module not found: Can't resolve '../css/opciones.css'
-  1 | import React, { useState } from "react";
-  2 | import "../css/globalApp.css";
-> 3 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Opciones: React.FC = () => {
-  6 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-https://nextjs.org/docs/messages/module-not-found
-[02:11:29.451] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:4:1
-Module not found: Can't resolve '../css/globalApp.css'
-  2 |
-  3 | import React, { useState } from "react";
-> 4 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import "../css/opciones.css";
-  6 |
-  7 | const Opciones: React.FC = () => {
-
-
+Expression expected
 
 Import traces:
   Client Component Browser:
@@ -734,21 +22,17 @@ Import traces:
   Client Component SSR:
     ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
     ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+[00:01:16.407] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:58:61
+Parsing ecmascript source code failed
+  56 |       {/* Barra de navegación */}
+  57 |       <div className="navigation">
+> 58 |         <> href="notificaciones.html" className="nav-button">
+     |                                                             ^
+  59 |           <div className="nav-icon">
+  60 |             <img src="../img/Icono_campana_hill.png" alt="Campana" />
+  61 |           </div>
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:11:29.457] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:4:1
-Module not found: Can't resolve '../css/globalApp.css'
-  2 |
-  3 | import React, { useState } from "react";
-> 4 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import "../css/opciones.css";
-  6 |
-  7 | const Opciones: React.FC = () => {
-
-
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
 
 Import traces:
   Client Component Browser:
@@ -758,45 +42,25 @@ Import traces:
   Client Component SSR:
     ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
     ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+[00:01:19.660] Server  LOG      ✓ Compiled in 23ms
+[00:01:20.099] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:24.405] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:63:13
+Parsing ecmascript source code failed
+  61 |           </div>
+  62 |           <span className="nav-label">Campana</span>
+> 63 |         </a>
+     |             ^
+> 64 |
+     | ^
+> 65 |         <Link href="progreso.html" className="nav-button">
+     | ^^^^^^^^^
+  66 |           <div className="nav-icon">
+  67 |             <img src="../img/icono_progreso.png" alt="Progreso" />
+  68 |           </div>
 
-https://nextjs.org/docs/messages/module-not-found
+Expected '</', got 'jsx text (
 
-
-[02:11:29.461] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:5:1
-Module not found: Can't resolve '../css/opciones.css'
-  3 | import React, { useState } from "react";
-  4 | import "../css/globalApp.css";
-> 5 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const Opciones: React.FC = () => {
-  8 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:11:29.466] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:5:1
-Module not found: Can't resolve '../css/opciones.css'
-  3 | import React, { useState } from "react";
-  4 | import "../css/globalApp.css";
-> 5 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const Opciones: React.FC = () => {
-  8 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
+        )'
 
 Import traces:
   Client Component Browser:
@@ -806,39 +70,24 @@ Import traces:
   Client Component SSR:
     ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
     ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+[00:01:34.907] Server  LOG      ✓ Compiled in 177ms
+[00:01:35.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:37.613] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:38.737] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:45.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:40.410] Browser ERROR   uncaughtError: Error: Image with src "../img/Icono_campana_hill.png" is missing required "width" property.
+[00:04:55.985] Server  LOG      ✓ Compiled in 17ms
+[00:04:56.418] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:60:63
+Parsing ecmascript source code failed
+  58 |         <Link href="/notificaciones" className="nav-button">
+  59 |           <div className="nav-icon">
+> 60 |             <Image src="../img/Icono_campana_hill.png" width= alt="Campana" />
+     |                                                               ^^^
+  61 |           </div>
+  62 |           <span className="nav-label">Campana</span>
+  63 |         </Link>
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:11:30.194] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:4:1
-Module not found: Can't resolve '../css/globalApp.css'
-  2 |
-  3 | import React, { useState } from "react";
-> 4 | import "../css/globalApp.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import "../css/opciones.css";
-  6 |
-  7 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:11:30.194] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:5:1
-Module not found: Can't resolve '../css/opciones.css'
-  3 | import React, { useState } from "react";
-  4 | import "../css/globalApp.css";
-> 5 | import "../css/opciones.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const Opciones: React.FC = () => {
-  8 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+Expected '</', got 'alt'
 
 Import traces:
   Client Component Browser:
@@ -848,113 +97,99 @@ Import traces:
   Client Component SSR:
     ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
     ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+[00:04:59.117] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:04:59.126] Server  LOG      ✓ Compiled in 17ms
+[00:04:59.494] Server  ERROR    ⨯ Error: Image with src "../img/Icono_campana_hill.png" is missing required "height" property.
+[00:04:59.527] Browser ERROR   uncaughtError: Error: Image with src "../img/Icono_campana_hill.png" is missing required "height" property.
+[00:04:59.807] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:00.413] Browser ERROR   uncaughtError: Error: Image with src "../img/Icono_campana_hill.png" is missing required "height" property.
+[00:05:05.395] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:05.404] Server  LOG      ✓ Compiled in 13ms
+[00:05:05.654] Server  ERROR   TypeError: Invalid URL
+[00:05:05.669] Server  ERROR    ⨯ Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:05.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:06.406] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:06.406] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:06.406] Browser ERROR   uncaughtError: Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:20.167] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:20.456] Server  ERROR   TypeError: Invalid URL
+[00:05:20.477] Server  ERROR    ⨯ Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:20.508] Server  LOG      ✓ Compiled in 15ms
+[00:05:20.702] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:21.413] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:21.413] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:21.413] Browser ERROR   uncaughtError: Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:28.293] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:28.312] Server  LOG      ✓ Compiled in 16ms
+[00:05:28.553] Server  ERROR   TypeError: Invalid URL
+[00:05:28.570] Server  ERROR    ⨯ Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:28.832] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:29.411] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:29.411] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:29.411] Browser ERROR   uncaughtError: Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:37.833] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:38.115] Server  ERROR   TypeError: Invalid URL
+[00:05:38.130] Server  ERROR    ⨯ Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:38.149] Server  LOG      ✓ Compiled in 17ms
+[00:05:38.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:39.403] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:39.403] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:39.403] Browser ERROR   uncaughtError: Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:43.617] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:43.629] Server  LOG      ✓ Compiled in 18ms
+[00:05:43.877] Server  ERROR   TypeError: Invalid URL
+[00:05:43.890] Server  ERROR    ⨯ Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:44.097] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:44.413] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:44.413] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:44.413] Browser ERROR   uncaughtError: Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:53.189] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:53.437] Server  ERROR   TypeError: Invalid URL
+[00:05:53.450] Server  ERROR    ⨯ Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:05:53.473] Server  LOG      ✓ Compiled in 14ms
+[00:05:53.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:54.405] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:54.405] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:05:54.405] Browser ERROR   uncaughtError: Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:06:02.930] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:03.188] Server  ERROR   TypeError: Invalid URL
+[00:06:03.232] Server  ERROR    ⨯ Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:06:03.259] Server  LOG      ✓ Compiled in 18ms
+[00:06:03.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:04.408] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:06:04.408] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:06:04.408] Browser ERROR   uncaughtError: Error: Failed to parse src "../img/Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:06:36.212] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:36.222] Server  LOG      ✓ Compiled in 12ms
+[00:06:36.649] Server  ERROR   TypeError: Invalid URL
+[00:06:36.672] Server  ERROR    ⨯ Error: Failed to parse src "../Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:06:37.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:37.217] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:06:37.217] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:06:37.217] Browser ERROR   uncaughtError: Error: Failed to parse src "../Icono_campana_hill.png" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:06:47.831] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:47.835] Server  LOG      ✓ Compiled in 12ms
+[00:06:48.333] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:48.644] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/avatar_default.png" "received" null
+[00:07:05.163] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/avatar_default.png" "received" null
+[00:07:08.818] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/avatar_default.png" "received" null
+[00:07:09.937] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:11.083] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:13.467] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:15.030] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:02.811] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/avatar_default.png" "received" null
+[00:09:34.748] Server  LOG      ✓ Compiled in 14ms
+[00:09:35.404] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:55:37
+Parsing ecmascript source code failed
+  53 |
+  54 |   return (
+> 55 |     <div className={stpage-container">
+     |                                     ^^
+  56 |       {/* Barra de navegación */}
+  57 |       <div className="navigation">
+  58 |         <Link href="/notificaciones" className="nav-button">
 
-https://nextjs.org/docs/messages/module-not-found
-[02:12:08.087] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../css/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/pages.module.css";
->  7 | import "../css/globalApp.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:12:08.090] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../css/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/pages.module.css";
->  7 | import "../css/globalApp.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:12:08.094] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/pages.module.css";
-   7 | import "../css/globalApp.css";
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:12:08.097] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/pages.module.css";
-   7 | import "../css/globalApp.css";
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:12:08.255] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../css/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/pages.module.css";
->  7 | import "../css/globalApp.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
+Unterminated string constant
 
 Import traces:
   Client Component Browser:
@@ -964,37 +199,17 @@ Import traces:
   Client Component SSR:
     ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
     ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+[00:09:37.412] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:55:20
+Parsing ecmascript source code failed
+  53 |
+  54 |   return (
+> 55 |     <div className=page-container">
+     |                    ^^^^
+  56 |       {/* Barra de navegación */}
+  57 |       <div className="navigation">
+  58 |         <Link href="/notificaciones" className="nav-button">
 
-https://nextjs.org/docs/messages/module-not-found
-[02:12:08.255] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/pages.module.css";
-   7 | import "../css/globalApp.css";
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:12:56.257] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../css/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/pages.module.css";
->  7 | import "../css/globalApp.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
+JSX value should be either an expression or a quoted JSX text
 
 Import traces:
   Client Component Browser:
@@ -1004,907 +219,13 @@ Import traces:
   Client Component SSR:
     ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
     ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:12:56.257] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/pages.module.css";
-   7 | import "../css/globalApp.css";
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:13:03.551] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../css/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import "../css/globalApp.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:13:03.554] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../css/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import "../css/globalApp.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:13:03.558] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import "../css/globalApp.css";
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:13:03.560] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import "../css/globalApp.css";
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:13:04.266] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../css/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import "../css/globalApp.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:13:04.266] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import "../css/globalApp.css";
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:15:44.076] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:44.080] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:44.083] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:44.086] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:44.261] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../css/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../css/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:15:44.261] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../css/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:15:53.231] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/stylesopciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:53.235] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/stylesopciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:53.238] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/stylesopciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/stylesopciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:53.242] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/stylesopciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/stylesopciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:54.259] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/stylesopciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:15:54.259] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/stylesopciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/stylesopciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:15:56.608] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:56.611] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:56.614] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:56.617] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:15:57.259] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:15:57.259] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:17.260] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.modules.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:16:17.263] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.modules.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:16:17.267] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:16:17.270] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:16:18.257] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.modules.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:18.257] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:26.227] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.modules.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-
-./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:16:26.514] Browser ERROR   uncaughtError: Error: ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.modules.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[02:16:26.717] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.modules.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:26.717] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:26.717] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.modules.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:26.717] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:26.717] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:7:1
-Module not found: Can't resolve '../src/styles/globalApp.css'
-   5 | import Image from "next/image";
-   6 | import styles from "../../src/styles/opciones.module.css";
->  7 | import '../src/styles/globalApp.css';
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   8 | import "../src/styles/opciones.modules.css";
-   9 |
-  10 | const Opciones: React.FC = () => {
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:26.717] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
-   7 | import '../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | const Opciones: React.FC = () => {
-  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
-
-Import traces:
-  Client Component Browser:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
-    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[02:16:47.674] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
+[00:10:05.710] Server  LOG      ✓ Compiled in 17ms
+[00:10:15.783] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
    7 | import '../../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    9 |
   10 | const Opciones: React.FC = () => {
   11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
@@ -1923,12 +244,12 @@ Import traces:
 https://nextjs.org/docs/messages/module-not-found
 
 
-[02:16:47.678] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
+[00:10:15.791] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
    7 | import '../../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    9 |
   10 | const Opciones: React.FC = () => {
   11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
@@ -1947,12 +268,301 @@ Import traces:
 https://nextjs.org/docs/messages/module-not-found
 
 
-[02:16:48.269] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
-Module not found: Can't resolve '../src/styles/opciones.modules.css'
-   6 | import styles from "../../src/styles/opciones.module.css";
+[00:10:15.795] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
    7 | import '../../src/styles/globalApp.css';
->  8 | import "../src/styles/opciones.modules.css";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.798] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.806] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.813] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.819] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.826] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.833] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.840] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.845] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.850] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.855] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.860] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:15.864] Server  LOG      ✓ Compiled in 31ms
+[00:10:16.411] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    9 |
   10 | const Opciones: React.FC = () => {
   11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
@@ -1967,4 +577,718 @@ Import traces:
     ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
-[02:16:55.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:30.707] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.711] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.716] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.719] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.724] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.727] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.732] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.736] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.739] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.744] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.749] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.753] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.757] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.759] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:30.762] Server  LOG      ✓ Compiled in 18ms
+[00:10:31.404] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:9:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   7 | import styles from "../../src/styles/opciones.module.css";
+   8 | import '../../src/styles/globalApp.css';
+>  9 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const Opciones: React.FC = () => {
+  12 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:37.605] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.610] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.614] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.617] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.621] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.625] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.628] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.631] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.635] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.638] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.643] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.645] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.648] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.652] Server  ERROR    ⨯ ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.655] Server  LOG      ✓ Compiled in 22ms
+[00:10:38.404] Browser ERROR   ./Hill_project/frontend/app/opciones/page.tsx:8:1
+Module not found: Can't resolve '../../src/styles/opciones.modules.css'
+   6 | import Link from 'next/link';
+   7 | import '../../src/styles/globalApp.css';
+>  8 | import "../../src/styles/opciones.modules.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const Opciones: React.FC = () => {
+  11 |   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
+
+Import traces:
+  Client Component Browser:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component Browser]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Hill_project/frontend/app/opciones/page.tsx [Client Component SSR]
+    ./Hill_project/frontend/app/opciones/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:49.532] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/avatar_default.png" "received" null

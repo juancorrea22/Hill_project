@@ -3,9 +3,9 @@
 import React, { useState } from "react";
 import { useRouter } from 'next/navigation';
 import Image from "next/image";
-import styles from "../../src/styles/opciones.module.css";
+import Link from 'next/link';
 import '../../src/styles/globalApp.css';
-import "../../src/styles/opciones.modules.css";
+import "../../src/styles/opciones.css";
 
 const Opciones: React.FC = () => {
   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
@@ -54,40 +54,40 @@ const Opciones: React.FC = () => {
     <div className="page-container">
       {/* Barra de navegación */}
       <div className="navigation">
-        <a href="notificaciones.html" className="nav-button">
+        <Link href="/notificaciones" className="nav-button">
           <div className="nav-icon">
-            <img src="../img/Icono_campana_hill.png" alt="Campana" />
+            <Image src="/Icono_campana_hill.png" width={60} height={60} alt="Campana" />
           </div>
           <span className="nav-label">Campana</span>
-        </a>
+        </Link>
 
-        <a href="progreso.html" className="nav-button">
+        <Link href="/progreso" className="nav-button">
           <div className="nav-icon">
-            <img src="../img/icono_progreso.png" alt="Progreso" />
+            <Image src="/icono_progreso.png" width={60} height={60} alt="Progreso" />
           </div>
           <span className="nav-label">Progreso</span>
-        </a>
+        </Link>
 
-        <a href="home.html" className="nav-button">
+        <Link href="/home" className="nav-button">
           <div className="nav-icon">
-            <img src="../img/Hill_imagen_logo.jpg" alt="Hill" />
+            <Image src="/Hill_imagen_logo.jpg" width={60} height={60} alt="Hill" />
           </div>
           <span className="nav-label">Hill</span>
-        </a>
+        </Link>
 
-        <a href="logros.html" className="nav-button">
+        <Link href="/logros" className="nav-button">
           <div className="nav-icon">
-            <img src="../img/Icono_logro.png" alt="Logros" />
+            <Image src="/Icono_logro.png" width={60} height={60} alt="Logros" />
           </div>
           <span className="nav-label">Logros</span>
-        </a>
+        </Link>
 
-        <a href="opciones.html" className="nav-button">
+        <Link href="/opciones" className="nav-button">
           <div className="nav-icon">
-            <img src="../img/icono_opciones.png" alt="Opciones" />
+            <Image src="/icono_opciones.png" width={60} height={60} alt="Opciones" />
           </div>
           <span className="nav-label">Opciones</span>
-        </a>
+        </Link>
       </div>
 
       {/* Título principal */}
@@ -104,7 +104,7 @@ const Opciones: React.FC = () => {
             onClick={() => showSection("perfil")}
           >
             <div className="sidebar-content">
-              <img src="../img/Icono_usuario.png" alt="Usuario" className="sidebar-icon" />
+              <Image src="/Icono_usuario.png" width={60} height={60} alt="Usuario" className="sidebar-icon" />
               <span>Ajustes de usuario</span>
             </div>
           </div>
@@ -138,7 +138,7 @@ const Opciones: React.FC = () => {
               <div className="user-card">
                 <div className="user-info">
                   <div className="user-avatar">
-                    <img src="../img/avatar_default.png" alt="Avatar" id="avatar-img" />
+                    <Image src="/avatar_default.png" width={60} height={60} alt="Avatar" id="avatar-img" />
                   </div>
                   <div className="user-name" id="display-username">
                     {username}

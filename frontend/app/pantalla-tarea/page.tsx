@@ -32,7 +32,7 @@ export default function PantallaTareaPage() {
       return;
     }
 
-    const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:4000';
+    const API = process.env.NEXT_PUBLIC_API_BASE ?? 'http://localhost:4000';
     setLoading(true);
     setError(null);
 
@@ -95,7 +95,7 @@ export default function PantallaTareaPage() {
     <main className={styles.container}>
       <div className={styles.logoContainer}>
         <div className={styles.logo}>
-          <img src="/img/Hill_imagen_logo.jpg" alt="Hill Logo" className={styles.logoIcon} />
+          <img src="/Hill_imagen_logo.jpg" alt="Hill Logo" className={styles.logoIcon} />
         </div>
       </div>
 
