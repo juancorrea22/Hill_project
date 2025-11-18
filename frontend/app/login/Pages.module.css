@@ -1,0 +1,230 @@
+/* Login Page */
+.hill_login_page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #adffb0;
+}
+
+.hill_login_container {
+  display: flex;
+  width: 80%;
+  max-width: 1000px;
+  height: 80%;
+  background-color: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.hill_login__image {
+  width: 50%;
+  background-color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hill_login__form_container {
+  width: 50%;
+  padding: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.hill_login__logo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hill_login__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+/* ========== FORMULARIOS ========== */
+.hill_form {
+  width: 100%;
+}
+
+.hill_form_group {
+  margin-bottom: 1.75rem;
+}
+
+.hill_form_label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.hill_form_input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-color: #fafafa;
+}
+
+.hill_form_input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+  background-color: white;
+}
+
+/* ========== BOTONES ========== */
+.hill_btn {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hill_btn__primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+.hill_btn__primary:hover {
+  background-color: #45a049;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.hill_btn__full-width {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* ========== LINKS ========== */
+.hill_login__links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.hill_login__link {
+  font-size: 0.9rem;
+  color: #1976d2;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.hill_login__link:hover {
+  color: #1565c0;
+  text-decoration: underline;
+}
+
+/* ========== MENSAJE DE ERROR ========== */
+.hill_form_error_message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 0.875rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  display: none;
+  border-left: 4px solid #c62828;
+}
+
+/* ========== ESTILOS PARA IMÁGENES ========== */
+.hill_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hill_image--contain {
+    object-fit: contain;
+}
+
+.hill_logo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.hill_avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hill_icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.hill_banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--radius);
+}
+
+.hill_chart {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    background-color: var(--muted);
+    border-radius: var(--radius);
+}
+
+/* Ocultar placeholders antiguos */
+.hill_image_placeholder,
+.hill_logo_placeholder {
+    display: none;
+}
+
+/* Responsive para login */
+@media (max-width: 768px) {
+  .hill_login_container {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    max-height: none;
+  }
+  
+  .hill_login__image {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .hill_login__form_container {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hill_login_container {
+    width: 100%;
+    border-radius: 0;
+  }
+  
+  .hill_login__form_container {
+    padding: 1.5rem;
+  }
+  
+  .hill_login__links {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
+}

@@ -3,7 +3,7 @@
   import React, { useState } from 'react';
   import { useRouter } from 'next/navigation';
   import Image from "next/image";
-  import styles from "../../src/styles/pages.module.css";
+  import styles from "../login/Pages.module.css";
 
   export default function LoginPage() {
     const [username, setUsername] = useState('');
@@ -52,7 +52,9 @@
 
           <div className={styles.hill_login__form_container}>
             <div className={styles.hill_login__logo}>
-              <img 
+              <Image
+                width={60}
+                height={60} 
                 src="/Hill_imagen_logo.jpg" 
                 alt="logo hill" 
                 className={styles.hill_logo} 
@@ -100,7 +102,7 @@
                 </button>
               </form>
 
-              <div className={styles['hill-login__links']}>
+              <div className={styles.hill_login__links}>
                 <a href="/forgot-password" className={styles.hill_login__link}>¿Olvidaste tu contraseña?</a>
                 <a href="/signIn" className={styles.hill_login__link}>Registrarse</a>
               </div>

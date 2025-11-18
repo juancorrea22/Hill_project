@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from "next/image";
+import styles from "../login/Pages.module.css";
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState('');
@@ -34,37 +36,39 @@ export default function ForgotPasswordPage() {
   }
 
   return (
-    <main className="hill-login-container">
-      <div className="hill-login__image">
-        <img src="/img/login-image.jpg" alt="hábitos saludables" className="hill-image" />
-      </div>
-
-      <div className="hill-login__form-container">
-        <div className="hill-login__logo">
-          <img src="/img/Hill_imagen_logo.jpg" alt="logo hill" className="hill-logo" />
+    <main className={styles.hill_login_page}>
+      <div className={styles.hill_login_container}>
+        <div className={styles.hill_login__image}>
+          <Image src="/login-image.jpg" width={626} height={626} alt="hábitos saludables" className={styles.hill_image} />
         </div>
 
-        <div className="hill-login__form">
-          <h2 className="hill-login__title">Recuperar Contraseña</h2>
-          <p style={{ textAlign: 'center', color: '#666', marginBottom: '20px', fontSize: '14px' }}>
-            Ingresa tu correo electrónico y te enviaremos instrucciones para restablecer tu contraseña.
-          </p>
+        <div className={styles.hill_login__form_container}>
+          <div className={styles.hill_login__logo}>
+            <Image src="/Hill_imagen_logo.jpg" width={60} height={60} alt="logo hill" className={styles.hill_logo} />
+          </div>
 
-          <form className="hill-form" onSubmit={handleSubmit}>
-            <div className="hill-form-group">
-              <label htmlFor="email" className="hill-form-label">Correo electrónico</label>
-              <input type="email" id="email" name="email" className="hill-form-input" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          <div className={styles.hill_login__form}>
+            <h2 className={styles.hill_login__title}>Recuperar Contraseña</h2>
+            <p style={{ textAlign: 'center', color: '#666', marginBottom: '20px', fontSize: '14px' }}>
+              Ingresa tu correo electrónico y te enviaremos instrucciones para restablecer tu contraseña.
+            </p>
+
+            <form className={styles.hill_form} onSubmit={handleSubmit}>
+              <div className={styles.hill_form_group}>
+                <label htmlFor="email" className={styles.hill_form_label}>Correo electrónico</label>
+                <input type="email" id="email" name="email" className={styles.hill_form_input} value={email} onChange={(e) => setEmail(e.target.value)} required />
+              </div>
+
+              {error && (<div className={styles.hill_form}>No se encontró una cuenta con este correo electrónico</div>)}
+              {success && (<div className={styles.hill_form} style={{ color: '#28a745', textAlign: 'center', marginBottom: '15px', fontSize: '14px' }}>Se ha enviado un correo con instrucciones para recuperar tu contraseña</div>)}
+
+              <button type="submit" className={`${styles.hill_btn} ${styles.hill_btn__primary} ${styles.hill_btn__full_width}`}>Enviar instrucciones</button>
+            </form>
+
+            <div className={styles.hill_login__links}>
+              <a href="/login" className={styles.hill_login__link}>Volver a iniciar sesión</a>
+              <a href="/sign-in" className={styles.hill_login__link}>Crear una cuenta</a>
             </div>
-
-            {error && <div className="hill-form-error">No se encontró una cuenta con este correo electrónico</div>}
-            {success && <div className="hill-form-success" style={{ color: '#28a745', textAlign: 'center', marginBottom: '15px', fontSize: '14px' }}>Se ha enviado un correo con instrucciones para recuperar tu contraseña</div>}
-
-            <button type="submit" className="hill-btn hill-btn--primary hill-btn--full-width">Enviar instrucciones</button>
-          </form>
-
-          <div className="hill-login__links">
-            <a href="/login" className="hill-login__link">Volver a iniciar sesión</a>
-            <a href="/signIn" className="hill-login__link">Crear una cuenta</a>
           </div>
         </div>
       </div>
