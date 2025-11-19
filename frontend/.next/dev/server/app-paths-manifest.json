@@ -2,6 +2,5 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/home/page": "app/home/page.js",
   "/login/page": "app/login/page.js",
-  "/notificaciones/page": "app/notificaciones/page.js",
-  "/opciones/page": "app/opciones/page.js"
+  "/signIn/page": "app/signIn/page.js"
 }
