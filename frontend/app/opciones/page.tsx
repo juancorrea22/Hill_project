@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from 'next/navigation';
 import Image from "next/image";
 import Link from 'next/link';
@@ -8,15 +8,78 @@ import '../../src/styles/globalApp.css';
 import "../../src/styles/opciones.css";
 
 const Opciones: React.FC = () => {
+  const router = useRouter();
   const [activeSection, setActiveSection] = useState<"perfil" | "seguridad" | "soporte">("perfil");
   const [modalOpen, setModalOpen] = useState<"none" | "username" | "password">("none");
-  const [username, setUsername] = useState("User_Name1");
+  
+  // Estado del usuario
+  const [username, setUsername] = useState("");
   const [newUsername, setNewUsername] = useState("");
+  const [userEmail, setUserEmail] = useState("");
+  const [userId, setUserId] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+  
   const [passwords, setPasswords] = useState({
     current: "",
     new: "",
     confirm: "",
   });
+
+  const API = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:4000";
+
+  // Cargar datos del usuario
+  useEffect(() => {
+    const fetchUserData = async () => {
+      try {
+        setLoading(true);
+        
+        // Obtener el usuario del localStorage
+        const storedUser = localStorage.getItem("user");
+        if (!storedUser) {
+          setError("Usuario no autenticado");
+          router.push("/login");
+          return;
+        }
+
+        const user = JSON.parse(storedUser);
+        const userId = user._id || user.id;
+        
+        if (!userId) {
+          setError("ID de usuario no encontrado");
+          router.push("/login");
+          return;
+        }
+
+        setUserId(userId);
+
+        // Traer datos del usuario
+        const response = await fetch(`${API}/api/users/${userId}`, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+
+        if (!response.ok) {
+          throw new Error("Error al cargar los datos del usuario");
+        }
+
+        const userData = await response.json();
+        setUsername(userData.name);
+        setUserEmail(userData.email || "");
+        setNewUsername(userData.name);
+        setLoading(false);
+      } catch (err) {
+        console.error("Error completo:", err);
+        const errorMsg = err instanceof Error ? err.message : "Error desconocido";
+        setError(`Error al cargar los datos del usuario: ${errorMsg}`);
+        setLoading(false);
+      }
+    };
+
+    fetchUserData();
+  }, [API, router]);
 
   const showSection = (section: "perfil" | "seguridad" | "soporte") => {
     setActiveSection(section);
@@ -34,21 +97,71 @@ const Opciones: React.FC = () => {
     alert("Función para cambiar foto de usuario próximamente disponible.");
   };
 
-  const saveUsername = () => {
+  const saveUsername = async () => {
     if (newUsername.trim() === "") return alert("Por favor ingresa un nombre válido.");
-    setUsername(newUsername);
-    setNewUsername("");
-    closeModal();
+    
+    try {
+      const response = await fetch(`${API}/api/users/${userId}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: newUsername,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Error al actualizar el nombre");
+      }
+
+      setUsername(newUsername);
+      alert("Nombre de usuario actualizado correctamente.");
+      closeModal();
+    } catch (err) {
+      console.error(err);
+      alert("Error al actualizar el nombre de usuario");
+    }
   };
 
-  const savePassword = () => {
+  const savePassword = async () => {
     const { current, new: newPass, confirm } = passwords;
     if (!current || !newPass || !confirm) return alert("Por favor completa todos los campos.");
     if (newPass !== confirm) return alert("Las contraseñas no coinciden.");
-    alert("Contraseña actualizada correctamente.");
-    setPasswords({ current: "", new: "", confirm: "" });
-    closeModal();
+
+    try {
+      const response = await fetch(`${API}/api/users/${userId}/change-password`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          currentPassword: current,
+          newPassword: newPass,
+        }),
+      });
+
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(data.message || "Error al cambiar la contraseña");
+      }
+
+      alert("Contraseña actualizada correctamente.");
+      setPasswords({ current: "", new: "", confirm: "" });
+      closeModal();
+    } catch (err) {
+      console.error(err);
+      alert(`Error: ${err instanceof Error ? err.message : "Error desconocido"}`);
+    }
   };
+
+  if (loading) {
+    return <div className="page-container"><p>Cargando datos del usuario...</p></div>;
+  }
+
+  if (error) {
+    return <div className="page-container"><p style={{ color: "red" }}>{error}</p></div>;
+  }
 
   return (
     <div className="page-container">
@@ -140,8 +253,13 @@ const Opciones: React.FC = () => {
                   <div className="user-avatar">
                     <Image src="/avatar_default.png" width={60} height={60} alt="Avatar" id="avatar-img" />
                   </div>
-                  <div className="user-name" id="display-username">
-                    {username}
+                  <div>
+                    <div className="user-name" id="display-username">
+                      {username}
+                    </div>
+                    <div style={{ fontSize: "14px", color: "#666" }}>
+                      {userEmail}
+                    </div>
                   </div>
                 </div>
                 <button className="change-photo-btn" onClick={changePhoto}>
