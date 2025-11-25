@@ -1,139 +1,201 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from "next/image";
+import Image from 'next/image';
 import styles from './Notificaciones.module.css';
 
-type Notification = {
-  id: string;
+interface Notification {
+  _id?: string;
   title: string;
-  time?: string;
-  date?: string;
+  message?: string;
+  createdAt?: string;
   read?: boolean;
-};
+}
 
-type TaskItem = {
-  id: string;
-  title: string;
-};
+interface Task {
+  _id?: string;
+  name: string;
+  description?: string;
+  completed: boolean;
+  type?: string;
+}
 
 export default function NotificacionesPage() {
-  const [notifications, setNotifications] = useState<Notification[] | null>(null);
-  const [tasks, setTasks] = useState<TaskItem[] | null>(null);
+  const [notifications, setNotifications] = useState<Notification[]>([]);
+  const [tasks, setTasks] = useState<Task[]>([]);
   const [loading, setLoading] = useState(true);
-  const [err, setErr] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:4000';
 
   useEffect(() => {
-    const API = process.env.NEXT_PUBLIC_API_BASE || 'http://localhost:4000';
-
-    async function loadData() {
-      setLoading(true);
-      setErr(null);
-
+    const fetchData = async () => {
       try {
-        const [nRes, tRes] = await Promise.allSettled([
-          fetch(`${API}/notifications`),
-          fetch(`${API}/tasks/pending`),
-        ]);
+        setLoading(true);
+        setError(null);
 
-        if (nRes.status === 'fulfilled' && nRes.value.ok) {
-          const data = await nRes.value.json();
-          setNotifications(Array.isArray(data) ? data : []);
-        } else {
-          setNotifications([
-            { id: 'n1', title: 'Mensaje de notificación 1', time: '6:55 a.m', date: '05/08/2025' },
-            { id: 'n2', title: 'Mensaje de notificación 2', time: '7:04 p.m', date: '04/08/2025' },
-            { id: 'n3', title: 'Mensaje de notificación 3', time: '8:30 a.m', date: '04/08/2025' },
-          ]);
+        const userStorage = localStorage.getItem('user');
+        if (!userStorage) {
+          setError('No se encontró la información del usuario');
+          setLoading(false);
+          return;
         }
 
-        if (tRes.status === 'fulfilled' && tRes.value.ok) {
-          const data = await tRes.value.json();
-          setTasks(Array.isArray(data) ? data : []);
-        } else {
-          setTasks([
-            { id: 't1', title: 'Tarea 4: Descripcion de la tarea' },
-            { id: 't2', title: 'Tarea 5: Descripcion de la tarea' },
-            { id: 't3', title: 'Tarea 6: Descripcion de la tarea' },
-          ]);
+        const user = JSON.parse(userStorage);
+        const userId = user._id || user.id;
+
+        // Obtener notificaciones del usuario
+        try {
+          const notifResponse = await fetch(`${API_BASE_URL}/api/notification`);
+          if (notifResponse.ok) {
+            const notifData = await notifResponse.json();
+            setNotifications(Array.isArray(notifData) ? notifData : []);
+          }
+        } catch (err) {
+          console.warn('Error cargando notificaciones:', err);
+          setNotifications([]);
         }
-      } catch (error: any) {
-        console.error(error);
-        setErr('No fue posible cargar las notificaciones');
+
+        // Obtener tareas pendientes del usuario
+        try {
+          const tasksResponse = await fetch(`${API_BASE_URL}/api/users/${userId}`);
+          if (tasksResponse.ok) {
+            const userData = await tasksResponse.json();
+            const tareasPendientes = userData.tareas?.filter((t: Task) => !t.completed) || [];
+            setTasks(tareasPendientes);
+          }
+        } catch (err) {
+          console.warn('Error cargando tareas:', err);
+          setTasks([]);
+        }
+      } catch (err) {
+        const errorMessage = err instanceof Error ? err.message : 'Error desconocido';
+        setError(errorMessage);
+        console.error('Error fetching data:', err);
       } finally {
         setLoading(false);
       }
-    }
+    };
 
-    loadData();
+    fetchData();
   }, []);
+
+  const formatearFecha = (fechaISO: string | undefined): { date: string; time: string } => {
+    if (!fechaISO) return { date: '', time: '' };
+
+    const fecha = new Date(fechaISO);
+    const date = fecha.toLocaleDateString('es-ES', { year: 'numeric', month: '2-digit', day: '2-digit' });
+    const time = fecha.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', hour12: true });
+
+    return { date, time };
+  };
 
   return (
     <div className={styles.pageContainer}>
-      <div className={styles.navigation}>
+      {/* Barra de navegación */}
+      <nav className={styles.navigation}>
         <Link href="/notificaciones" className={styles.navButton}>
-          <div className={styles.navIcon}><Image src="/Icono_campana_hill.png" width={60} height={60} alt="Campana" /></div>
+          <div className={styles.navIcon}>
+            <Image src="/Icono_campana_hill.png" alt="Campana" width={40} height={40} />
+          </div>
           <span className={styles.navLabel}>Campana</span>
         </Link>
 
         <Link href="/progreso" className={styles.navButton}>
-          <div className={styles.navIcon}><Image src="/icono_progreso.png" width={60} height={60} alt="Progreso" /></div>
+          <div className={styles.navIcon}>
+            <Image src="/icono_progreso.png" alt="Progreso" width={40} height={40} />
+          </div>
           <span className={styles.navLabel}>Progreso</span>
         </Link>
 
         <Link href="/home" className={styles.navButton}>
-          <div className={styles.navIcon}><Image src="/Hill_imagen_logo.jpg" width={60} height={60} alt="Hill" /></div>
+          <div className={styles.navIcon}>
+            <Image src="/Hill_imagen_logo.jpg" alt="Hill" width={40} height={40} />
+          </div>
           <span className={styles.navLabel}>Hill</span>
         </Link>
 
         <Link href="/logros" className={styles.navButton}>
-          <div className={styles.navIcon}><Image src="/Icono_logro.png" width={60} height={60} alt="Logros" /></div>
+          <div className={styles.navIcon}>
+            <Image src="/Icono_logro.png" alt="Logros" width={40} height={40} />
+          </div>
           <span className={styles.navLabel}>Logros</span>
         </Link>
 
         <Link href="/opciones" className={styles.navButton}>
-          <div className={styles.navIcon}><Image src="/icono_opciones.png" width={60} height={60} alt="Opciones" /></div>
+          <div className={styles.navIcon}>
+            <Image src="/icono_opciones.png" alt="Opciones" width={40} height={40} />
+          </div>
           <span className={styles.navLabel}>Opciones</span>
         </Link>
-      </div>
+      </nav>
 
       <div className={styles.titleContainer}>
         <h1>Notificaciones</h1>
       </div>
 
       <div className={styles.content}>
+        {/* Sección de Mensajes */}
         <div className={styles.mensajesSection}>
           <h2>Mensajes de Notificación</h2>
 
-          {loading && <p>cargando notificaciones...</p>}
-          {err && <p className={styles.error}>{err}</p>}
+          {loading && <p className={styles.loadingMessage}>Cargando notificaciones...</p>}
+          {error && <p className={styles.errorMessage}>{error}</p>}
 
-          {notifications && notifications.length === 0 && <p>No hay notificaciones.</p>}
+          {!loading && notifications.length === 0 && (
+            <p className={styles.emptyMessage}>No hay notificaciones</p>
+          )}
 
-          {notifications?.map((n) => (
-            <div key={n.id} className={styles.notificacion}>
-              <Image src="/Icono_campana_hill.png" width={60} height={60} alt="Notificación" />
-              <div className={styles.notificacionTexto}>
-                <p><b>{n.title}</b></p>
+          {notifications.map((notif) => {
+            const { date, time } = formatearFecha(notif.createdAt);
+            return (
+              <div key={notif._id} className={styles.notificacion}>
+                <div className={styles.notificacionIcon}>
+                  <Image
+                    src="/Icono_campana_hill.png"
+                    alt="Notificación"
+                    width={40}
+                    height={40}
+                  />
+                </div>
+                <div className={styles.notificacionTexto}>
+                  <p className={styles.notificacionTitulo}>{notif.title}</p>
+                  {notif.message && <p className={styles.notificacionMensaje}>{notif.message}</p>}
+                </div>
+                <div className={styles.notificacionFecha}>
+                  {time && <small>{time}</small>}
+                  {date && <small>{date}</small>}
+                </div>
               </div>
-              <div className={styles.notificacionFecha}>
-                <small>{n.time ?? ''}</small>
-                <small>{n.date ?? ''}</small>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
+        {/* Sección de Tareas Pendientes */}
         <div className={styles.tareas}>
-          <p className={styles.tareasTitulo}><b>Aún no has completado las siguientes tareas:</b></p>
+          <p className={styles.tareasTitulo}>
+            <b>Aún no has completado las siguientes tareas:</b>
+          </p>
 
-          {tasks && (
-            <ul>
-              {tasks.map((t) => (
-                <li key={t.id}>
-                  <Image src="/icono_x_roja.png" width={60} height={60} alt="X" />
-                  <span>{t.title}</span>
+          {loading && <p className={styles.loadingMessage}>Cargando tareas...</p>}
+          {error && <p className={styles.errorMessage}>{error}</p>}
+
+          {!loading && tasks.length === 0 && (
+            <p className={styles.emptyMessage}>¡Todas las tareas completadas!</p>
+          )}
+
+          {tasks.length > 0 && (
+            <ul className={styles.tareasList}>
+              {tasks.map((tarea) => (
+                <li key={tarea._id} className={styles.tareaItem}>
+                  <Image src="/icono_x_roja.png" alt="Tarea pendiente" width={20} height={20} />
+                  <div className={styles.tareaInfo}>
+                    <span className={styles.tareaName}>{tarea.name}</span>
+                    {tarea.description && (
+                      <span className={styles.tareaDesc}>{tarea.description}</span>
+                    )}
+                  </div>
                 </li>
               ))}
             </ul>
