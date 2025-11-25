@@ -104,7 +104,7 @@
 
               <div className={styles.hill_login__links}>
                 <a href="/forgot-password" className={styles.hill_login__link}>¿Olvidaste tu contraseña?</a>
-                <a href="/signIn" className={styles.hill_login__link}>Registrarse</a>
+                <a href="/sign-in" className={styles.hill_login__link}>Registrarse</a>
               </div>
             </div>
           </div>
