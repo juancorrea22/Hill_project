@@ -33,6 +33,10 @@ export class UserService implements IUserService {
     return this.userRepository.delete(id);
   }
 
+  async verifyPassword(password: string, hashedPassword: string): Promise<boolean> {
+    return await bcrypt.compare(password, hashedPassword);
+  }
+
   async userLogin(name: string, password: string): Promise<{ user: User; token: string } | null> {
   const user = await this.userRepository.findOne({ name }) as UserDocument;
   if (!user) return null;

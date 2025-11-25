@@ -98,3 +98,36 @@ export const userLogin = async (req: Request, res: Response) => {
     return res.status(500).json({ message: "Server error" });
   }
 };
+
+export const changePassword = async (req: Request, res: Response) => {
+    try {
+        const { currentPassword, newPassword } = req.body;
+        const userId = req.params.id;
+
+        // Validar que ambas contraseñas se hayan proporcionado
+        if (!currentPassword || !newPassword) {
+            return res.status(400).json({ message: "Contraseña actual y nueva son requeridas" });
+        }
+
+        // Obtener el usuario
+        const user = await userService.findUsersById(userId);
+        if (!user) {
+            return res.status(404).json({ message: "Usuario no encontrado" });
+        }
+
+        // Verificar que la contraseña actual sea correcta
+        const isMatch = await userService.verifyPassword(currentPassword, user.password);
+        if (!isMatch) {
+            return res.status(401).json({ message: "Contraseña actual incorrecta" });
+        }
+
+        // Actualizar la contraseña (el pre-save hook la encriptará)
+        const updatedUser = await userService.updateUser(userId, { password: newPassword } as Partial<User>);
+
+        res.json({ message: "Contraseña actualizada correctamente", user: updatedUser });
+
+    } catch (error) {
+        console.log(`error: >> ${error}`);
+        res.status(500).json({ message: "Error al cambiar la contraseña" });
+    }
+};

@@ -24,7 +24,15 @@ export class UserRepository implements IUserRepository{
     }
 
     async update(id: string, data: Partial<User>): Promise<User | null> {
-        return await UserModel.findByIdAndUpdate(id, data, {new: true}).exec(); // el '{new: true}' es para que retorne la data actualizada
+    // ← AQUÍ VA EL CÓDIGO
+    if (data.password) {
+        const user = await UserModel.findById(id).exec();
+        if (!user) return null;
+
+        Object.assign(user, data);
+        return await user.save();
+    }
+    return await UserModel.findByIdAndUpdate(id, data, {new: true}).exec();
     }
 
     async delete(id: string): Promise<boolean> {

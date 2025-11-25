@@ -56,6 +56,7 @@ export interface IUserService {
     updateUser(id: string, user: Partial<User>): Promise<User | null>;
     deleteUser(id: string): Promise<boolean>;
     userLogin(name: string, password: string): Promise<{ user: User; token: string } | null>;
+    verifyPassword(password: string, hashedPassword: string): Promise<boolean>;
 }
 
 export type UserDocument = User & Document;

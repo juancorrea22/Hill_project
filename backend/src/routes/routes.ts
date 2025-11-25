@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createUser, deleteUser, findUsers, findUsersById, updateUser, userLogin } from "@controllers/userContollers";
+import { changePassword, createUser, deleteUser, findUsers, findUsersById, updateUser, userLogin } from "@controllers/userContollers";
 import { createTarea, deleteTarea, findTareaById, findTareas, updateTarea } from "@controllers/tareaController";
 import { createNotification, deleteNotification, findNotification, findNotificationById, updateNotification } from "@controllers/notificationController";
 import { forgotPassword, registerUser } from "@controllers/auth/authControllers";
@@ -23,6 +23,7 @@ export default () => {
     router.post("/users", createUser);
     router.put("/users/:id", updateUser);
     router.delete("/users/:id", deleteUser);
+    router.put("/users/:id/change-password", changePassword);
     
     // TAREAS
     router.get("/tareas", findTareas);
